@@ -1,0 +1,31 @@
+.protocols-page .page-banner > img { object-position: center -230px; }
+.protocols-page .service-rows { padding-bottom: 240px; }
+.protocols-page .protocol-inset > .service-row-copy { padding: 0 0 0 50px; }
+.protocols-page .protocol-no-inset > .service-row-copy { padding: 0 50px 0 0; }
+.protocol-acknowledgement { margin-top: 16px; }
+.protocols-page li { position: relative; padding-left: 15px; }
+.protocols-page li::before { content: '\2022'; position: absolute; left: 0; width: 8px; }
+
+@media (min-width: 1601px) {
+  .protocols-page .page-banner > img { object-position: center -200px; }
+}
+
+@media (max-width: 1400px) and (min-width: 1025px) {
+  .protocol-pool, .protocol-parking { max-width: 410px; }
+  .protocol-private { max-width: 360px; }
+  .protocol-children { max-width: 335px; }
+  .protocol-gym { max-width: 330px; }
+  .protocol-room, .protocol-bathrooms { max-width: 370px; }
+  .protocol-general { max-width: 350px; }
+}
+
+@media (max-width: 1024px) {
+  .protocols-page .protocol-inset > .service-row-copy,
+  .protocols-page .protocol-no-inset > .service-row-copy { padding: 20px 0 0; }
+}
+
+@media (max-width: 767px) {
+  .protocols-page .service-rows { padding-bottom: 120px; }
+  .protocols-page .service-row:not(.service-row-mobile-image-first) { margin-top: -20px; }
+  .protocol-gym + .protocol-room { margin-top: 29px; }
+}

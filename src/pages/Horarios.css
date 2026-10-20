@@ -1,0 +1,25 @@
+.schedule-body { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 30px; align-items: start; padding-block: 190px 180px; }
+.schedule-groups { display: flex; flex-direction: column; gap: 100px; min-width: 0; }
+.schedule-group .heading-backdrop { top: -48px; left: 1px; }
+.schedule-group h2 { overflow-wrap: anywhere; }
+.schedule-group li { font-size: 16px; line-height: 24px; }
+.schedule-image { display: block; width: 100%; height: auto; }
+
+@media (max-width: 1280px) and (min-width: 1025px) {
+  .schedule-body { padding-top: 180px; }
+  .schedule-group .section-heading h2 { font-size: 40px; }
+  .schedule-group .heading-backdrop { font-size: 40px; top: -32px; }
+}
+
+@media (max-width: 1024px) {
+  .schedule-body { padding-top: 180px; }
+  .schedule-group .heading-backdrop { top: -32px; }
+}
+
+@media (max-width: 767px) {
+  .schedule-body { grid-template-columns: 1fr; gap: 40px; padding-block: 200px 100px; }
+  .schedule-groups { gap: 150px; }
+  .schedule-group .section-heading { margin-bottom: 10px; }
+  .schedule-group .section-heading h2 { font-size: 30px; line-height: 30px; }
+  .schedule-group .heading-backdrop { top: -20px; }
+}

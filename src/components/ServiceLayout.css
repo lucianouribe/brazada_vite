@@ -1,0 +1,64 @@
+.service-rows { padding-top: 190px; display: flex; flex-direction: column; gap: 100px; }
+.service-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: center; }
+.service-row-image { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; }
+.service-row-copy { min-width: 0; padding-left: 50px; }
+.service-row-image-right > .service-row-image { grid-column: 2; grid-row: 1; }
+.service-row-image-right > .service-row-copy { grid-column: 1; grid-row: 1; padding: 0 50px 0 0; }
+.service-copy-block + .service-copy-block { margin-top: 29px; }
+.service-copy-block > h2 { font-size: 32px; line-height: 1.2; text-transform: uppercase; margin-bottom: 8px; }
+.service-row-copy p, .service-row-copy li { font-size: 16px; line-height: 24px; }
+.service-row-copy p + p { margin-top: 16px; }
+.service-row-copy .action-link { margin-top: 8px; min-height: 54px; }
+.service-row-copy .action-link > span { align-self: center; }
+.service-row-copy .action-link > svg { height: auto; }
+.service-row-copy .section-heading + p { margin-top: 0; }
+.service-information { display: flex; justify-content: center; align-items: center; gap: 18px; padding-block: 159px 100px; }
+.service-information > h2 { font-size: 28px; line-height: 33.6px; text-transform: uppercase; }
+.service-information-actions { display: flex; gap: 20px; align-items: center; }
+.service-information-actions > .action-link { font-size: 12px; line-height: 14px; }
+.service-information-actions > .action-link > svg { height: 16px; }
+.service-information-actions > button { padding: 0; }
+.natacion-page .page-banner > img, .hidrogimnasia-page .page-banner > img { object-position: center -100px; }
+.fitness-page .page-banner { height: 400px; }
+.fitness-page .page-banner > img { object-position: center bottom; }
+.masajes-page .page-banner > img { object-position: center -170px; }
+.swimming-introduction { position: relative; bottom: 80px; max-width: 350px; }
+
+@media (max-width: 1400px) and (min-width: 1025px) {
+  .swimming-babies { max-width: 350px; }
+  .swimming-children { max-width: 360px; }
+  .swimming-adults, .fitness-spinning, .fitness-core, .fitness-trx, .fitness-cardio { max-width: 340px; }
+  .swimming-diving { max-width: 350px; }
+  .fitness-circuit, .water-therapy, .water-exercise, .massage-copy { max-width: 370px; }
+  .fitness-tone, .fitness-springs { max-width: 330px; }
+}
+
+@media (max-width: 1024px) {
+  .fitness-page .page-banner { height: auto; }
+  .service-rows { padding-top: 150px; gap: 90px; }
+  .service-row { grid-template-columns: 1fr; }
+  .service-row > .service-row-image, .service-row > .service-row-copy { grid-column: 1; grid-row: auto; }
+  .service-row > .service-row-copy { padding: 20px 0 0; }
+  .service-row:not(.service-row-mobile-image-first) > .service-row-copy { grid-row: 1; }
+  .service-row:not(.service-row-mobile-image-first) > .service-row-image { margin-top: 20px; }
+  .service-information { flex-direction: column; align-items: center; padding-top: 125px; text-align: center; }
+  .swimming-introduction { bottom: 40px; max-width: none; padding-top: 60px; }
+}
+
+@media (max-width: 767px) {
+  .service-rows { padding-top: 80px; gap: 80px; }
+  .natacion-page .service-rows { padding-top: 170px; }
+  .service-copy-block > h2 { font-size: 25px; line-height: 30px; }
+  .service-copy-block + .service-copy-block { margin-top: 20px; }
+  .service-row-copy .section-heading { margin-top: 50px; margin-bottom: 0; }
+  .service-row-copy .section-heading h2 { line-height: 25px; }
+  .service-row-copy .heading-backdrop { top: -20px; }
+  .service-row-copy .section-heading + p { margin-top: 10px; }
+  .service-information { gap: 10px; padding-bottom: 60px; }
+  .service-information-actions { flex-direction: column; gap: 15px; padding-bottom: 5px; }
+  .natacion-page .service-information { padding-bottom: 100px; }
+}
+
+@media (max-width: 440px) {
+  .swimming-introduction { bottom: 20px; }
+}

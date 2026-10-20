@@ -1,0 +1,69 @@
+.about-width { width: calc(100% - 140px); max-width: 1300px; margin-inline: auto; }
+.about-banner { position: relative; height: 350px; display: flex; align-items: flex-end; }
+.about-banner > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+.about-banner > div { position: relative; }
+.about-banner h1 { font-size: 40px; line-height: 1.2; text-transform: uppercase; }
+
+.about-features { padding-block: 100px; }
+.about-features-heading { width: calc((100% - 60px) / 3); margin-left: calc((100% + 30px) / 3); margin-bottom: 20px; }
+.about-feature-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 30px; }
+.about-feature { position: relative; margin: 0; }
+.about-feature > img { width: 100%; height: auto; display: block; }
+.about-feature figcaption { position: absolute; bottom: 0; left: 15%; width: 70%; padding: 10px; background: var(--gold); color: white; font-size: 16px; line-height: 24px; font-weight: 900; text-align: center; text-transform: uppercase; }
+.about-feature figcaption button { background: none; border: 0; padding: 0; color: #29282d; font-weight: 900; text-transform: uppercase; }
+.about-feature figcaption button:hover { text-decoration: underline; }
+.about-video-play { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: grid; place-items: center; width: 72px; height: 72px; border-radius: 50%; border: 2px solid white; background: #ffffffd9; color: var(--teal); }
+.about-video-play svg { width: 32px; height: 32px; fill: currentColor; stroke-width: 0; }
+.about-video-play:hover { background: var(--teal); color: white; }
+
+.about-story { padding-block: 100px; background: #fff url('../assets/imgs/h2-parallax-2.jpg') center top / auto no-repeat; }
+.about-story-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: center; column-gap: 60px; padding-block: 15px; }
+.about-story-copy p { font-size: 16px; line-height: 24px; margin-bottom: 16px; }
+.about-story-copy p:last-child { margin-bottom: 0; }
+.about-story-image { display: block; width: 100%; height: auto; }
+.about-gym-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 60px; padding-block: 15px; margin-top: 100px; }
+.about-video-dialog { border: 0; padding: 20px; width: min(1000px, calc(100% - 30px)); max-height: calc(100dvh - 40px); color: #29282d; }
+.about-video-dialog::backdrop { background: #000c; }
+.about-video-heading { display: flex; align-items: center; justify-content: space-between; gap: 15px; margin-bottom: 15px; }
+.about-video-heading h2 { font-size: 22px; }
+.about-video-dialog iframe { display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; }
+.about-video-fallback { display: inline-block; margin-top: 15px; color: var(--teal); }
+.about-video-fallback:hover { text-decoration: underline; }
+
+@media (max-width: 1400px) and (min-width: 1025px) {
+  .about-story-copy { max-width: 375px; }
+}
+
+@media (max-width: 1280px) and (min-width: 1025px) {
+  .about-page .section-heading h2 { font-size: 40px; }
+  .about-page .heading-backdrop { font-size: 40px; top: -32px; }
+}
+
+@media (max-width: 1024px) {
+  .about-width { width: 85%; }
+  .about-banner { height: auto; display: block; }
+  .about-banner > img { position: static; height: auto; display: block; }
+  .about-banner > div { position: absolute; left: 0; right: 0; top: 100%; }
+  .about-features { padding-block: 100px 60px; }
+  .about-features-heading { width: 100%; margin-left: 0; }
+  .about-feature figcaption { left: 5%; width: 90%; font-size: 13px; padding: 8px; }
+  .about-story { padding-block: 60px; }
+  .about-story-row, .about-gym-row { column-gap: 30px; }
+  .about-gym-row { margin-top: 60px; }
+}
+
+@media (max-width: 767px) {
+  .about-banner h1 { font-size: 25px; padding-block: 7px; }
+  .about-features { padding-top: 60px; padding-bottom: 0; }
+  .about-page .section-heading h2 { line-height: 30px; }
+  .about-page .heading-backdrop { top: -20px; }
+  .about-features-heading { margin-bottom: 32px; }
+  .about-feature-grid { grid-template-columns: 1fr; gap: 30px; }
+  .about-feature figcaption { left: 15%; width: 70%; font-size: 16px; padding: 10px; }
+  .about-story-row { display: flex; flex-direction: column-reverse; gap: 30px; }
+  .about-story-copy p:first-of-type { margin-top: 10px; }
+  .about-story-copy { padding-top: 0; }
+  .about-gym-row { grid-template-columns: 1fr; }
+  .about-video-play { width: 60px; height: 60px; }
+  .about-video-heading h2 { font-size: 18px; }
+}

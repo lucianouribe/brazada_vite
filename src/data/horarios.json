@@ -1,0 +1,42 @@
+{
+  "groups": {
+    "Jornada": {
+      "backdrop": "Brazada",
+      "items": {
+        "1": { "description": "Lunes a viernes desde las 6:00 a.m hasta las 7:30 p.m" },
+        "2": { "description": "Sábados desde las 7:00 a.m hasta las 1:00 p.m" }
+      }
+    },
+    "Niños": {
+      "backdrop": "Natación",
+      "items": {
+        "1": { "description": "Lunes a viernes 3:30 p.m y 4:30 p.m" },
+        "2": { "description": "Sábados 9:00 a.m – 10:00 a.m – 11:00 a.m" }
+      }
+    },
+    "Libre": {
+      "backdrop": "Natación",
+      "items": {
+        "1": { "description": "Separa tu espacio en el whatsapp 310 5386485" },
+        "2": { "description": "Reservas según disponibilidad dentro de los horarios." }
+      }
+    },
+    "Hidrogimnasia": {
+      "backdrop": "Nataclión",
+      "items": {
+        "1": { "description": "Consulta nuestros horarios para las diferentes clases en el whatsapp 310 5386485" }
+      }
+    },
+    "Clases en tierra": {
+      "backdrop": "Horario",
+      "items": {
+        "1": { "description": "Lunes: 7:00 a.m spinning y 8:00 a.m tono" },
+        "2": { "description": "Martes: 8:00 a.m circuito en el gimnasio" },
+        "3": { "description": "Miércoles: 6:00 a.m spinning y 7:00 a.m tono" },
+        "4": { "description": "Jueves: 8:00 a.m circuito en el gimnasio" },
+        "5": { "description": "Viernes: 7:00 a.m spinning y 8:00 a.m resortes" },
+        "6": { "description": "Profesor: Juan Diego Toro" }
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+.contact-dialog { border: 0; padding: 30px; color: #29282d; width: min(640px, calc(100% - 40px)); max-height: calc(100dvh - 40px); overflow-y: auto; }
+.contact-dialog::backdrop { background: #0009; }
+.contact-dialog-heading { display: flex; align-items: center; justify-content: space-between; gap: 15px; margin-bottom: 25px; }
+.contact-dialog-heading h2 { min-width: 0; font-size: clamp(20px, 6vw, 28px); text-transform: uppercase; overflow-wrap: anywhere; }

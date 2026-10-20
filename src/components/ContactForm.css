@@ -1,0 +1,9 @@
+.contact-form.contact-form-page { gap: 25px; }
+.contact-form.contact-form-page input:not([type="hidden"]), .contact-form.contact-form-page textarea { background: #f7f7f7; color: #313646; font-size: 15px; line-height: 20px; padding: 15px 20px; }
+.contact-form.contact-form-page input::placeholder, .contact-form.contact-form-page textarea::placeholder { color: #666; }
+.contact-form.contact-form-page input:not([type="hidden"]) { height: 52px; }
+.contact-form.contact-form-page textarea { min-height: 232px; }
+.contact-form.contact-form-page .action-link { min-height: 62px; }
+.contact-form.contact-form-page .action-link > span { align-self: center; }
+.contact-form.contact-form-page .action-link > svg { height: auto; }
+.contact-form.contact-form-page .form-note { color: #555; }

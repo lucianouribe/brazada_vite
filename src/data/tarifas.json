@@ -1,0 +1,129 @@
+{
+  "year": "2026",
+  "groups": {
+    "Matrícula": {
+      "backgroundColor": "#ecbe16",
+      "textColor": "#ffffff",
+      "items": {
+        "1": {
+          "description": "",
+          "price": "$ 125.000",
+          "quantity": "Matrícula"
+        }
+      }
+    },
+    "Natación bebés y niños": {
+      "backgroundColor": "#9dcde1",
+      "textColor": "#232232",
+      "items": {
+        "1": {
+          "description": "Natación bebés y niños",
+          "price": "$ 305.000",
+          "quantity": "1 vez / semana"
+        },
+        "2": {
+          "description": "Natación bebés y niños",
+          "price": "$ 505.000",
+          "quantity": "2 veces / semana"
+        },
+        "3": {
+          "description": "Natación bebés y niños",
+          "price": "$ 85.000",
+          "quantity": "1 clase de natación"
+        }
+      }
+    },
+    "Intensivos": {
+      "backgroundColor": "#5fb2ca",
+      "textColor": "#ffffff",
+      "items": {
+        "1": {
+          "description": "Intensivos",
+          "price": "$ 78.000",
+          "quantity": "1 día"
+        },
+        "2": {
+          "description": "Intensivos",
+          "price": "$ 640.000",
+          "quantity": "10 días"
+        }
+      }
+    },
+    "Clases de natación personalizadas": {
+      "title": "Clases de natación\npersonalizadas",
+      "backgroundColor": "#2aa3ca",
+      "textColor": "#ffffff",
+      "items": {
+        "1": {
+          "description": "Clases personalizadas de natación",
+          "price": "$ 112.000",
+          "quantity": "1 clase"
+        },
+        "2": {
+          "description": "Clases personalizadas de natación",
+          "price": "$ 100.000 C/U",
+          "quantity": "1 clase 2 personas"
+        }
+      }
+    },
+    "Natación adulto (Enseñanza)": {
+      "backgroundColor": "#0085ca",
+      "textColor": "#ffffff",
+      "items": {
+        "1": {
+          "description": "Natación Adultos (Enseñanza)",
+          "price": "$ 325.000",
+          "quantity": "1 vez / semana"
+        }
+      }
+    },
+    "Natación adulto (Senior Master)": {
+      "backgroundColor": "#0085ca",
+      "textColor": "#ffffff",
+      "items": {
+        "1": {
+          "description": "Natación adulto (Senior Master)",
+          "price": "$ 270.000",
+          "quantity": "2 veces / semana"
+        },
+        "2": {
+          "description": "Natación adulto (Senior Master)",
+          "price": "$ 355.000",
+          "quantity": "3 veces / semana"
+        },
+        "3": {
+          "description": "Natación adulto (Senior Master)",
+          "price": "$ 465.000",
+          "quantity": "4 veces / semana"
+        }
+      }
+    },
+    "Hidroterapia": {
+      "backgroundColor": "#006fb6",
+      "textColor": "#ffffff",
+      "items": {
+        "1": {
+          "description": "Hidro gimnasia especial",
+          "price": "$ 80.000",
+          "quantity": "1 sesión (grupo)"
+        },
+        "2": {
+          "description": "Hidro gimnasia especial",
+          "price": "$ 125.000",
+          "quantity": "Personalizada"
+        }
+      }
+    },
+    "Gimnasio": {
+      "backgroundColor": "#de761a",
+      "textColor": "#ffffff",
+      "items": {
+        "1": {
+          "description": "",
+          "price": "$ 220.000",
+          "quantity": "Mensualidad"
+        }
+      }
+    }
+  }
+}

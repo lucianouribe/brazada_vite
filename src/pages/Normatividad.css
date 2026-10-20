@@ -1,0 +1,66 @@
+.normatividad-width {
+  width: calc(100% - 60px);
+  max-width: 1100px;
+  margin-inline: auto;
+}
+
+.normatividad-banner {
+  position: relative;
+  height: 350px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.normatividad-banner > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.normatividad-banner > div { position: relative; }
+.normatividad-banner h1 { font-size: 40px; line-height: 1.2; text-transform: uppercase; }
+
+.normatividad-body {
+  padding-block: 190px 140px;
+  min-height: 1042px;
+  background: linear-gradient(to right, transparent calc(50% - 1px), #eee calc(50% - 1px), #eee 50%, transparent 50%, transparent calc(100% - 1px), #eee calc(100% - 1px));
+}
+
+.normatividad-page p { font-size: 16px; line-height: 24px; }
+.licensing-line { display: block; }
+.normatividad-licensing { margin-bottom: 90px; }
+.normatividad-policy p { margin-top: 10px; }
+.normatividad-policy a { color: inherit; }
+.normatividad-policy a:hover { color: #006d7a; text-decoration: underline; }
+
+@media (max-width: 1200px) and (min-width: 1025px) {
+  .normatividad-width { max-width: 950px; }
+}
+
+@media (max-width: 1280px) and (min-width: 1025px) {
+  .normatividad-body { padding-top: 180px; min-height: 992px; }
+  .normatividad-page .section-heading h2 { font-size: 40px; }
+  .normatividad-page .heading-backdrop { font-size: 40px; top: -32px; }
+}
+
+@media (max-width: 1024px) {
+  .normatividad-width { width: 85%; }
+  .normatividad-banner { height: auto; display: block; overflow: visible; }
+  .normatividad-banner > img { position: static; height: auto; display: block; }
+  .normatividad-banner > div { position: absolute; left: 0; right: 0; top: 100%; }
+  .normatividad-body { padding-block: 180px 140px; min-height: 992px; }
+  .normatividad-licensing { margin-bottom: 90px; }
+}
+
+@media (max-width: 767px) {
+  .normatividad-banner h1 { font-size: 25px; padding-block: 7px; }
+  .normatividad-body { padding-block: 140px 298px; min-height: 0; background: none; }
+  .normatividad-page .section-heading h2 { line-height: 30px; }
+  .normatividad-page .heading-backdrop { top: -20px; }
+  .normatividad-licensing > p { margin-top: 10px; }
+  .normatividad-licensing { margin-bottom: 100px; }
+}
