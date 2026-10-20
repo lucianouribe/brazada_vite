@@ -25,6 +25,7 @@
 .main-navigation { margin-left: auto; height: 100%; }
 .main-navigation > ul { display: flex; align-items: stretch; height: 100%; }
 .main-navigation > ul > li { display: flex; position: relative; align-items: center; }
+.main-navigation > ul > .mobile-language { display: none; }
 
 .main-navigation > ul > li > a,
 .main-navigation > ul > li > button {
@@ -63,8 +64,10 @@
 
 .services-bar { height: 50px; background: var(--gold); }
 .services-bar ul { max-width: 90%; margin: auto; height: 100%; display: flex; justify-content: flex-end; }
-.services-bar a { display: block; padding: 0 15px; line-height: 50px; color: white; text-transform: uppercase; font-size: 14px; font-weight: 900; letter-spacing: 1.4px; }
-.services-bar a:hover, .services-bar a[aria-current="page"] { background: white; color: var(--teal); }
+.services-bar a, .services-bar button { display: block; padding: 0 15px; line-height: 50px; color: white; text-transform: uppercase; font-size: 14px; font-weight: 900; letter-spacing: 1.4px; }
+.services-bar button { border: 0; background: transparent; }
+.services-bar a:hover, .services-bar button:hover, .services-bar a[aria-current="page"] { background: white; color: var(--teal); }
+.main-navigation .language-toggle, .services-bar .language-toggle { text-transform: uppercase; }
 
 .search-dialog { border: 0; padding: 30px; width: min(560px, calc(100% - 40px)); color: #29282d; }
 .search-dialog::backdrop { background: #0009; }
@@ -162,7 +165,7 @@
 .contact-form textarea { resize: vertical; min-height: 100px; }
 .contact-form .action-link { align-self: flex-start; }
 .contact-form .form-note { margin: 5px 0 0; font-size: 12px; }
-.footer-bottom { min-height: 84px; display: flex; justify-content: space-between; align-items: center; gap: 30px; }
+.footer-bottom { min-height: 84px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 30px; padding-block: 20px; }
 .footer-bottom p { font-size: 14px; }
 .social-links { display: flex; align-items: center; gap: 14px; font-size: 14px; }
 .social-links svg { width: 18px; height: 18px; display: block; }
@@ -197,6 +200,7 @@
   .main-navigation.is-open { display: block; }
   .main-navigation > ul { display: block; padding: 15px 9%; }
   .main-navigation > ul > li { display: block; border-bottom: 1px solid #eee; }
+  .main-navigation > ul > .mobile-language { display: block; }
   .main-navigation > ul > li > a, .main-navigation > ul > li > button { display: flex; width: 100%; padding: 14px 0; text-align: left; font-size: 14px; justify-content: space-between; }
   .dropdown { position: static; box-shadow: none; padding: 0 0 10px 15px; }
   .services-dropdown:hover .dropdown { display: none; }

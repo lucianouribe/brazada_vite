@@ -15,7 +15,9 @@ the shared layout. Separate page components live in `src/pages/`,
 with `Placeholder.jsx` for pages still to be built.
 Shared header, footer, contact form, and UI components live in `src/components/`.
 The carousel hook lives in `src/hooks/useCarousel.js`.
-The landing copy, menu destinations, shared URLs, and testimonials are in `src/content.js`.
+Spanish page copy and interface labels are in `src/data/es.json`.
+Menu destinations and shared URLs remain in `src/content.js`, which connects
+the components to that JSON.
 Landing-page and shared navigation/footer styles are in `src/App.css`;
 `src/index.css` contains the reset and the three locally hosted Avenir font weights.
 The hero's two Roboto weights are also hosted locally; their license is included
@@ -117,6 +119,48 @@ WordPress feed shortcode is not carried over.
 
 Both carousels include previous/next and pause controls. Automatic rotation is
 disabled when the visitor prefers reduced motion.
+
+## Page text and languages
+
+Edit `src/data/es.json` for Spanish and `src/data/en.json` for English without
+editing components. Brazada remains the company name in both languages:
+
+- `metadata`: document language, default title, route title template, and description.
+- `navigation` and `services`: menu and service names; destinations stay in JavaScript.
+- `shared`: header, footer, contact forms/dialogs, search, accessibility controls,
+  WhatsApp messages, and not-found text.
+- `pages`: each page's headings, paragraphs, image descriptions, and lists.
+  Landing-page institutional copy and testimonials are included here too.
+
+Keep key names and value types unchanged when translating. Arrays preserve
+paragraph/list order, and emphasis, links, and deliberate line breaks remain in
+React rather than HTML strings. Named placeholders such as `{name}`, `{phone}`,
+`{email}`, `{message}`, and `{page}` must be preserved in translated templates.
+Whitespace in text fragments around inline elements is intentional.
+
+The existing `src/data/tarifas.json` and `src/data/horarios.json` remain separate
+and unchanged. They supply Spanish pricing/schedules, prices, year, colours and
+ordering. English display-text overlays are in `en.json` under
+`pages.tarifas.groups` and `pages.horarios.groups`, keyed by the original group
+names and item IDs. Keep those overlays in sync when adding or changing entries.
+Prices retain their Colombian formatting; `C/U` is displayed as `each` in English.
+
+The menu's language button switches every page and shared component immediately
+without reloading or clearing entered form values. It appears after Guidelines
+(Protocolos) in the desktop service bar and after Contact us (Contáctenos) inside
+the mobile hamburger menu. It shows `English` when Spanish is active and
+`Español` when English is active; there is no language dropdown. The explicit
+choice is saved under `brazada-language` in local storage and retained across
+navigation and reloads. Spanish is the default when there is no valid saved
+choice; browser language settings never override it. If browser storage is
+unavailable, switching still works for the current page and a warning is logged.
+
+`LanguageProvider` and `useContent` supply the active language. Document language,
+route title, description, accessibility labels and WhatsApp message templates
+follow the selection. Routes do not change. `vite.config.js` always inserts
+Spanish metadata into the initial static HTML, including production builds;
+React applies an explicitly saved preference after loading. Original embedded
+videos, maps, logos and the linked Spanish policy PDF are not translated.
 
 ## Commands
 

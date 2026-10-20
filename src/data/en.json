@@ -1,0 +1,615 @@
+{
+  "metadata": {
+    "language": "en",
+    "defaultTitle": "Home - Brazada",
+    "titleTemplate": "{page} - Brazada",
+    "description": "Brazada: a positive experience beyond sport, for life. Swimming, water aerobics and fitness in San Lucas, El Poblado."
+  },
+  "navigation": {
+    "home": "Home",
+    "regulations": "Regulations",
+    "services": "Services",
+    "about": "Why Brazada",
+    "pricing": "Pricing",
+    "schedule": "Schedules",
+    "contact": "Contact us"
+  },
+  "services": {
+    "swimming": "Swimming",
+    "fitness": "Fitness",
+    "waterExercise": "Water aerobics",
+    "massage": "Massage",
+    "protocols": "Guidelines"
+  },
+  "shared": {
+    "contactDialog": {
+      "close": "Close form",
+      "title": "Contact us"
+    },
+    "contactForm": {
+      "phonePlaceholder": "Phone...",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Message",
+      "namePlaceholder": "Name...",
+      "emailPlaceholder": "Email...",
+      "messagePlaceholder": "Message...",
+      "submitPage": "Submit form",
+      "submitFooter": "Send message",
+      "note": "WhatsApp will open so you can confirm sending your message.",
+      "submittedNote": "Continue in the new WhatsApp tab and confirm sending your message.",
+      "whatsappMessage": "Hello, my name is {name}.\n{phone}Email: {email}\n\n{message}",
+      "whatsappPhone": "Phone: {phone}\n"
+    },
+    "footer": {
+      "facebook": "Brazada on Facebook",
+      "instagram": "Brazada on Instagram",
+      "youtube": "Brazada on YouTube",
+      "contact": "Contact us",
+      "description": "Brazada is a welcoming space, full of greenery and light, with excellent facilities for every activity.",
+      "phone": "+57 310 538 6485",
+      "services": "Services",
+      "writeToUs": "Write to us",
+      "copyright": "Copyright © 2024 Brazada",
+      "followUs": "Follow us"
+    },
+    "header": {
+      "spanish": "Español",
+      "english": "English",
+      "homeLink": "Brazada — Home",
+      "logoAlt": "Brazada, Education for Work and Human Development Institution",
+      "mainNavigation": "Main menu",
+      "search": "Search Brazada",
+      "services": "Services",
+      "closeSearch": "Close search",
+      "searchInput": "Search for a page",
+      "searchPlaceholder": "Search for a page…",
+      "noResults": "No pages found.",
+      "openMenu": "Open menu",
+      "closeMenu": "Close menu"
+    },
+    "serviceLayout": {
+      "moreInformation": "For more information",
+      "viewPricing": "View pricing"
+    },
+    "siteActions": {
+      "whatsapp": "Chat with Brazada on WhatsApp",
+      "backToTop": "Back to top"
+    },
+    "placeholder": {
+      "notFound": "Page not found",
+      "backHome": "Back to home"
+    },
+    "additionalPages": {
+      "mindAndBody": "Mind & body",
+      "informationPolicy": "Data processing"
+    },
+    "app": {
+      "skipLink": "Skip to content"
+    },
+    "whatsappRequest": "Hello, I have an enquiry"
+  },
+  "pages": {
+    "contactenos": {
+      "title": "Contact us",
+      "bannerAlt": "Brazada facilities in Medellín",
+      "detailsLabel": "Location and contact details",
+      "mapTitle": "Brazada location on Google Maps",
+      "formLabel": "Contact form",
+      "facebook": "Brazada on Facebook",
+      "instagram": "Brazada on Instagram",
+      "youtube": "Brazada on YouTube",
+      "addressLabel": "Address",
+      "address": "Calle 18 sur # 24-44",
+      "city": "Medellín, Colombia.",
+      "whatsappLabel": "WhatsApp",
+      "phone": "+57 310 538 6485",
+      "phoneLabel": "Phone",
+      "emailLabel": "Email",
+      "email": "brazada12@gmail.com",
+      "introduction": "At Brazada, we recognise each person's individuality. That is why we designed a Comprehensive Plan that lets each member organise their fitness programme according to their needs, wishes and availability.",
+      "followUs": "Follow us"
+    },
+    "fitness": {
+      "title": "Fitness",
+      "bannerAlt": "Fitness training at Brazada",
+      "spinning": {
+        "alt": "Stationary bikes for spinning classes",
+        "title": "Spinning",
+        "text": "Indoor cycling is a low-impact workout for people of any age and fitness level. It improves aerobic capacity, strengthens muscles and supports weight loss."
+      },
+      "circuit": {
+        "title": "Circuit training",
+        "text": "Aerobic endurance improves considerably with this dynamic and varied form of training, based on synchronised repetitions of exercise sets. Muscles become more defined without increasing in size, while body fat decreases."
+      },
+      "core": {
+        "alt": "Core and muscle-toning exercises",
+        "title": "Core",
+        "text": "Core exercises focus on strengthening the body's midsection. They improve flexibility in trunk movements, increase balance and coordination, and enhance postural stability, among other benefits."
+      },
+      "tone": {
+        "title": "Toning",
+        "text": "Regular toning exercises improve muscle flexibility and strength and increase the ability to support loads, laying the foundations for good posture. They also help the body metabolise fat and burn calories."
+      },
+      "trx": {
+        "alt": "Training with bands and springs",
+        "title": "TRX",
+        "text": "TRX workouts combine cardiovascular and muscular training. Their results include lower body fat, toned muscle groups and improved physical fitness."
+      },
+      "springs": {
+        "title": "Spring resistance",
+        "text": "Both muscles and bones benefit from spring resistance training. In addition to their physiotherapy benefits, these exercises tone and define muscles. Depending on the training approach, you can choose whether or not to increase muscle mass."
+      },
+      "cardio": {
+        "alt": "Exercise machines and weights at the Brazada gym",
+        "title": "Cardio – Weights",
+        "text": "Cardiovascular exercise increases our heart and breathing rates, helping us burn more calories quickly while improving our metabolism and strengthening our heart and lungs. It also lowers stress hormone levels by releasing endorphins.",
+        "weightsText": "The main goal of lifting weights is to strengthen muscles and increase their size, power and endurance."
+      },
+      "pilates": {
+        "alt": "Pilates at Brazada",
+        "title": "Pilates",
+        "text": "A flexible, balanced body with strong, defined muscles is the promise of Pilates. This exercise system, based on breathing and the coordination of precise movements, also relaxes the mind and reduces stress."
+      }
+    },
+    "hidrogimnasia": {
+      "title": "Water aerobics",
+      "bannerAlt": "Water activities at Brazada",
+      "therapy": {
+        "alt": "Hydrotherapy exercises in the pool",
+        "title": "Hydrotherapy",
+        "text": "Water is a suitable environment for rehabilitation and for helping people return to their daily activities. Hydrostatic pressure reduces the effort required of the heart while enhancing the work of the skeletal and muscular systems."
+      },
+      "backdrop": "Brazada",
+      "exercise": {
+        "alt": "Outdoor water aerobics class",
+        "title": "Water aerobics",
+        "text": "The sun, fresh air and water have a revitalising effect. Water-based exercises are low-impact and benefit the muscles, the cardiorespiratory system and flexibility, while also reducing stress."
+      },
+      "contact": "Contact us"
+    },
+    "horarios": {
+      "title": "Schedules",
+      "bannerAlt": "Brazada swimming pool",
+      "imageAlt": "Children's swimming class at Brazada",
+      "groups": {
+        "Jornada": {
+          "title": "Opening hours",
+          "backdrop": "Brazada",
+          "items": {
+            "1": { "description": "Monday to Friday from 6:00 a.m. to 7:30 p.m." },
+            "2": { "description": "Saturdays from 7:00 a.m. to 1:00 p.m." }
+          }
+        },
+        "Niños": {
+          "title": "Children",
+          "backdrop": "Swimming",
+          "items": {
+            "1": { "description": "Monday to Friday at 3:30 p.m. and 4:30 p.m." },
+            "2": { "description": "Saturdays at 9:00 a.m. – 10:00 a.m. – 11:00 a.m." }
+          }
+        },
+        "Libre": {
+          "title": "Open swim",
+          "backdrop": "Swimming",
+          "items": {
+            "1": { "description": "Book your spot on WhatsApp: 310 5386485" },
+            "2": { "description": "Bookings are subject to availability during opening hours." }
+          }
+        },
+        "Hidrogimnasia": {
+          "title": "Water aerobics",
+          "backdrop": "Swimming",
+          "items": {
+            "1": { "description": "Ask about our different class schedules on WhatsApp: 310 5386485" }
+          }
+        },
+        "Clases en tierra": {
+          "title": "Land-based classes",
+          "backdrop": "Schedule",
+          "items": {
+            "1": { "description": "Monday: spinning at 7:00 a.m. and toning at 8:00 a.m." },
+            "2": { "description": "Tuesday: circuit training in the gym at 8:00 a.m." },
+            "3": { "description": "Wednesday: spinning at 6:00 a.m. and toning at 7:00 a.m." },
+            "4": { "description": "Thursday: circuit training in the gym at 8:00 a.m." },
+            "5": { "description": "Friday: spinning at 7:00 a.m. and spring resistance at 8:00 a.m." },
+            "6": { "description": "Instructor: Juan Diego Toro" }
+          }
+        }
+      }
+    },
+    "landing": {
+      "hero": {
+        "poolAlt": "Brazada outdoor swimming pool",
+        "swimmingAlt": "Swimming class in the Brazada pool",
+        "trainingAlt": "Physical activity and training at Brazada",
+        "wellbeingAlt": "Sport and wellbeing at Brazada",
+        "label": "Wellbeing at Brazada",
+        "title": "WELLBEING",
+        "subtitle": "A WAY OF LIFE",
+        "hashtag": "#yosoybrazada"
+      },
+      "cards": {
+        "swimmingDescription": "Babies, children, teenagers and adults",
+        "hydroDescription": "Water aerobics | Hydrotherapy",
+        "fitnessDescription": "Cardio, weights, toning, core, circuit training, spinning, Pilates, massage, jiu-jitsu and more"
+      },
+      "carousel": {
+        "role": "carousel",
+        "image": {
+          "previous": "Previous image",
+          "next": "Next image",
+          "play": "Play slideshow",
+          "pause": "Pause slideshow"
+        },
+        "testimonial": {
+          "previous": "Previous testimonial",
+          "next": "Next testimonial",
+          "play": "Play testimonials",
+          "pause": "Pause testimonials"
+        }
+      },
+      "servicesLabel": "Our services",
+      "institutionLabel": "Our institution",
+      "videoTitle": "Training — Brazada Sports Centre",
+      "backdrop": "Brazada",
+      "visionTitle": "Vision",
+      "objectiveTitle": "Objective",
+      "objectiveBackdrop": "Overall",
+      "testimonialsLabel": "Testimonials",
+      "introduction": "A positive experience beyond sport, for life",
+      "learnMore": "Learn more",
+      "missionTitle": "Mission",
+      "instagram": {
+        "title": "Follow us on",
+        "platform": "instagram",
+        "handle": "@brazadacentrodeportivo",
+        "allPosts": "All posts"
+      },
+      "institution": {
+        "about": {
+          "title": "Education for Work and Human Development Institution (IETDH)",
+          "text": "Located in San Lucas, El Poblado, Brazada is a green retreat with spacious, bright and airy spaces and excellent facilities for amateur or professional sport. With 28 years of experience promoting physical activity as a way of life."
+        },
+        "mission": "We are an educational institution providing spaces for physical, mental, social and recreational development through swimming lessons and recreation and sports courses. We focus on wellbeing and improving the quality of life of children, young people and adults, guided by our Institutional Educational Project (PEI) and the principles of humanism, sporting excellence, professionalism and continuous improvement. With 28 years of experience promoting physical activity as a way of life.",
+        "vision": "Our vision for 2025 is to be the leading educational institution in swimming instruction, recreation and sport, with highly qualified instructors, efficient administration, quality, resources and facilities at the forefront of the market. With 28 years of experience promoting physical activity as a way of life.",
+        "objective": "To provide educational services in aquatic activities, focusing on swimming instruction and promoting sport, recreation and the constructive use of free time, while helping students acquire competencies, skills and abilities in this field. With 28 years of experience promoting physical activity as a way of life."
+      },
+      "testimonials": [
+        {
+          "name": "Carolina Hernández",
+          "text": "What I like most about Brazada is the variety of ways to exercise. You can finish a cardio class, such as dance fitness or spinning, and then relax your muscles with stretching or swimming.",
+          "role": "Brazada student"
+        },
+        {
+          "name": "Beatriz Mesa",
+          "text": "Making classes fun and educational is very important for development, because learning through a positive experience creates happy memories that last forever.",
+          "role": "Swimming student's grandmother"
+        },
+        {
+          "name": "Yakelin Ortíz Restrepo",
+          "text": "After completing five treatment sessions, one of my patients said she was happy with the therapy because she had replaced four daily painkillers with physiotherapy exercises twice a week.",
+          "role": "Hydrotherapy"
+        },
+        {
+          "name": "Adriana María Torres Velásquez",
+          "text": "Water is my favourite environment, so Brazada gives me the opportunity to enjoy it while getting my body moving through exercise. My niece learned to swim with the guidance of their excellent instructors. I also feel so welcome here: they always greet me with a smile! Thank you to the Brazada family!",
+          "role": "Water aerobics student"
+        },
+        {
+          "name": "Natalia Fernández",
+          "text": "I feel at home because, from the moment I arrive at class, colleagues and students greet each other, and the joy we share makes the day more rewarding. Hearing students say, \"Teacher, I loved the class, what we did was wonderful,\" fills me with pride.",
+          "role": "Yoga/Pilates/Stretching"
+        },
+        {
+          "name": "Mauricio Ospina",
+          "text": "After a fun jiu-jitsu class with the children at Brazada, seeing their joy and that of the people accompanying them when they overcome challenges inspires me to keep teaching with passion.",
+          "role": "Jiu-jitsu instructor"
+        },
+        {
+          "name": "Adriana Gómez",
+          "text": "My favourite place, where every day brings different experiences. I love it when the children come up to ask, \"Adri, which teacher am I with? Will you take me? Will you come with me?\"",
+          "role": "Coordinator"
+        },
+        {
+          "name": "Estephania Hernández Gallego",
+          "text": "Brazada academy has been the place where I have grown professionally. It gave me the opportunity to do this wonderful work ten years ago, and I have always been able to learn and grow as a person.",
+          "role": "Swimming instructor"
+        },
+        {
+          "name": "Mónica Torres",
+          "text": "My student calls me Sergeant Major instead of teacher. He says I am a necessary evil, because without his water exercise class he would not still be playing tennis. — An 83-year-old student.",
+          "role": "Private water aerobics instructor"
+        },
+        {
+          "name": "Alejandro Ramirez Restrepo",
+          "text": "One day before swimming class, a student told her mother that she had a lesson with the teacher who was always happy, and that this was what she liked most about the class.",
+          "role": "Swimming instructor"
+        },
+        {
+          "name": "Carolina Hernández",
+          "text": "What I like most about Brazada is the variety of ways to exercise. You can finish a cardio class, such as dance fitness or spinning, and then relax your muscles with stretching or swimming."
+        },
+        {
+          "name": "Carolina Hernández",
+          "text": "I discovered Brazada when I joined water aerobics while pregnant, and I loved the place! I had heard of it but did not know it was a gym with so many options. The water was wonderful during pregnancy, and later, when I could exercise again, I started attending yoga, Pilates and stretching classes without fail."
+        },
+        {
+          "name": "María Eugenia Espinosa",
+          "text": "I love swimming here because it is such a friendly, peaceful place. Everyone comes ready to exercise. All the staff are kind and helpful. Sara is incredible!",
+          "role": "Open swim"
+        },
+        {
+          "name": "Beatriz Mesa",
+          "text": "Making classes fun and educational is very important for development, because learning through a positive experience creates happy memories that last forever."
+        },
+        {
+          "name": "Natalia Corredor",
+          "text": "The massages at Brazada are wonderful; the therapist is almost a magician. Lorena has relieved my lower back and knee pain and helped reduce the back pain caused by my scoliosis. When I need it, she gives me a purely relaxing massage too! Lorena even doubles as a confidante <3"
+        },
+        {
+          "name": "Natalia Corredor - Ricardo Corredor",
+          "text": "After spending 45 days in hospital with limited movement, my father discovered how wonderful hydrotherapy is. He says that, for quality of life alone, any adult should make time for this enjoyable way to exercise. \"I move all my muscles without risking injury,\" he says happily."
+        },
+        {
+          "name": "Luz Stella de Sánchez",
+          "text": "Hydrotherapy changed my life. I feel more active and energetic, I have lost weight and I am walking better. At Brazada I found what I needed."
+        },
+        {
+          "name": "Fabiola Medina",
+          "text": "A very enriching experience, not just because of the exercise but because of the people I have met and happily spend time with. I feel at home here."
+        },
+        {
+          "name": "Olga Brand",
+          "text": "It is a fresh start after going through breast cancer. I came to this place and found a wonderful group.",
+          "role": "Water aerobics"
+        },
+        {
+          "name": "Juliana Franco Uribe",
+          "text": "For me, Brazada means joy, mobility, purpose and recreation. I have such a lovely time here with everything and, above all, with EVERYONE.",
+          "role": "Brazada student"
+        }
+      ]
+    },
+    "masajes": {
+      "title": "Massage",
+      "bannerAlt": "Therapeutic and relaxation massage at Brazada",
+      "imageAlt": "Massage session at Brazada",
+      "heading": "Massage",
+      "backdrop": "Brazada",
+      "introduction": "Reflexology, lymphatic drainage, therapeutic, relaxation and sports massage are some of the options we offer at Brazada.",
+      "benefits": "Sports massage is a manual technique aimed at improving an athlete's performance and physical condition. It helps athletes reach peak fitness while preventing injuries or speeding up rehabilitation from existing muscle problems.",
+      "application": "This type of massage can be used before training or competition, or to stretch and relax the muscles after a daily workout."
+    },
+    "natacion": {
+      "title": "Swimming",
+      "bannerAlt": "Brazada pool for swimming lessons",
+      "babies": {
+        "alt": "Baby accompanied during a swimming lesson",
+        "title": "Babies",
+        "text": "Classes from six months of age help babies become familiar with the water, enjoy it and have fun, exercise their bodies and develop motor skills."
+      },
+      "backdrop": "Swimming",
+      "children": {
+        "alt": "Children learning to swim at Brazada",
+        "title": "Children",
+        "subtitle": "Lessons and training",
+        "text": "As well as being a survival skill, swimming gives children the opportunity to exercise and interact with their peers in an atmosphere of friendship and love for nature."
+      },
+      "adults": {
+        "alt": "Swimming training for adults",
+        "title": "Adults",
+        "subtitle": "Lessons, training, Senior Master",
+        "text": "From learning to swim to training to improve fitness and refine technique, we offer a range of options for adults."
+      },
+      "diving": {
+        "alt": "Diving practice in the Brazada pool",
+        "title": "Diving",
+        "text": "Learning to dive gives you the opportunity to experience the unique sensations and emotions of the underwater world. A calm spirit, a relaxed mind, self-confidence and a connection with nature are some of the treasures the deep waters offer us."
+      },
+      "introduction": "We offer the Swimming and Aquatic Skills programme under the inspection and supervision of the Medellín Secretariat of Education.",
+      "contact": "Contact us"
+    },
+    "normatividad": {
+      "licensingLines": [
+        "Brazada, an Education for Work and Human Development Institution (IETDH),",
+        "holds an operating licence granted by the Medellín Secretariat of Education",
+        "under Resolution No. 12322 of 17 September 2010.",
+        "It offers the Swimming and Aquatic Skills programme, registered with the Medellín",
+        "Secretariat of Education under Resolution No. 202250086753 of 27 July",
+        "2022. Upon completing all training levels, students receive a Certificate of",
+        "Occupational Aptitude in Academic Knowledge in Swimming and Aquatic",
+        "Skills. This certificate does not confer a professional degree.",
+        "The inspection and supervision of this programme are the responsibility of the",
+        "MEDELLÍN SECRETARIAT OF EDUCATION."
+      ],
+      "bannerAlt": "Brazada pool during a swimming class",
+      "heading": "Regulations",
+      "backdrop": "Brazada",
+      "policy": {
+        "title": "Processing",
+        "backdrop": "Data",
+        "introduction": "Find our ",
+        "link": "information processing policy here"
+      },
+      "title": "Regulations"
+    },
+    "porqueBrazada": {
+      "story": {
+        "paragraphs": [
+          "Brazada is an institution where we work enthusiastically to teach and encourage sport and fitness activities. We began in 1990 as the Pablo Restrepo Swimming Academy. Guided by our belief that teaching someone to swim gives them the opportunity to enjoy wellbeing and physical and mental health, we gradually introduced more activities offering the same benefits.",
+          "Brazada is a welcoming space, full of greenery and light, with excellent facilities for every activity. Visitors feel at home in a friendly, peaceful atmosphere and receive warm, personalised attention from our professional instructors. At Brazada, we know that joy and inner peace come from feeling healthy and balanced in body and mind. And we know how to help you experience it!"
+        ],
+        "title": "Are",
+        "backdrop": "Who we",
+        "imageAlt": "Brazada facilities and swimming pool surrounded by greenery",
+        "gymAlt": "Brazada gym with fitness equipment"
+      },
+      "features": {
+        "title": "Apart",
+        "backdrop": "What sets us",
+        "safetyAlt": "Instructor supporting a student on a safety platform in the pool",
+        "liftAlt": "Brazada pool access lift",
+        "accessibilityAlt": "Steps and handrails for safe access to the pool",
+        "safety": "Safety platforms",
+        "lift": "Pool lift ",
+        "accessibility": "Accessibility"
+      },
+      "video": {
+        "open": "Watch the pool access lift video",
+        "close": "Close video",
+        "iframeTitle": "Brazada pool access lift",
+        "watch": "Watch video",
+        "title": "Pool access lift",
+        "youtube": "Watch on YouTube"
+      },
+      "bannerAlt": "Water activity class in the Brazada pool",
+      "title": "About us"
+    },
+    "protocolos": {
+      "pool": {
+        "items": [
+          "Wear Lycra swim shorts (children, teenagers and adults).",
+          "SWIMMING CAPS are compulsory for everyone.",
+          "SHOWER before entering.",
+          "Use the footbath when entering and leaving.",
+          "Do not bring food or drinks into the pool area.",
+          "Do not wear outdoor shoes in the pool area.",
+          "Do not use tanning products before entering the pool."
+        ],
+        "alt": "Brazada swimming pool",
+        "title": "Swimming pool"
+      },
+      "private": {
+        "items": [
+          "Pay in advance for the classes you will take during the month.",
+          "If you need to cancel a class, give at least two hours' notice. It can be rescheduled within the same month."
+        ],
+        "title": "Private swimming lessons"
+      },
+      "children": {
+        "items": [
+          "Schedule a class day and time and keep to that schedule.",
+          "Payment is for the full month.",
+          "Missed classes can only be made up in the event of illness.",
+          "Provide a medical note and agree on a replacement day and time with the coordinator (weekdays only).",
+          "Take children to the bathroom before entering the pool.",
+          "Pay the monthly fee on time to remain eligible for make-up classes.",
+          "Children must only enter the pool area with their instructor."
+        ],
+        "alt": "Swimming classes for children",
+        "title": "Children's swimming lessons"
+      },
+      "gym": {
+        "items": [
+          "Wear trainers and a T-shirt, and bring a small towel for perspiration.",
+          "Do not enter wearing sandals, barefoot or wet, and do not eat in the exercise rooms.",
+          "Follow the instructions for using the equipment correctly.",
+          "This area is for teenagers and adults only."
+        ],
+        "alt": "Brazada gym",
+        "title": "Gym"
+      },
+      "room": {
+        "items": [
+          "Leave your shoes outside the room.",
+          "Bring a towel for exercise mats.",
+          "This area is for teenagers and adults only."
+        ],
+        "title": "Second-floor studio"
+      },
+      "bathrooms": {
+        "items": [
+          "Keep shower time to a minimum.",
+          "Please do not leave the tap running to rinse your swimwear while showering, soaping up or washing your hair.",
+          "Children aged five and over must use the bathroom corresponding to their sex."
+        ],
+        "alt": "Bathrooms at the Brazada facilities",
+        "title": "Bathrooms"
+      },
+      "parking": {
+        "items": [
+          "Lock your car securely and do not leave valuables inside.",
+          "Do not leave children alone in the car.",
+          "Do not occupy two parking spaces.",
+          "The academy is not responsible for lost items."
+        ],
+        "title": "Parking"
+      },
+      "general": {
+        "items": [
+          "Do not bring valuables.",
+          "Use a locker. Items and bags may not be left at reception.",
+          "No pets allowed.",
+          "Coffee is complimentary. Please request it directly at the café and enjoy it in moderation.",
+          "Pay monthly fees on time.",
+          "Monthly fees are due within the first five days of the month.",
+          "Remember that payment is monthly. When your place is reserved, the academy counts on your attendance when assigning instructors. FEES ARE CHARGED FOR A RESERVED PLACE, NOT FOR EACH CLASS ATTENDED.",
+          "No exceptions will be made."
+        ],
+        "alt": "Brazada reception areas",
+        "title": "General guidelines"
+      },
+      "title": "Guidelines",
+      "bannerAlt": "Brazada facilities",
+      "acknowledgement": "Read and understood"
+    },
+    "tarifas": {
+      "title": "Pricing",
+      "bannerAlt": "Brazada swimming pool and facilities",
+      "each": "each",
+      "groups": {
+        "Matrícula": {
+          "title": "Registration",
+          "items": { "1": { "description": "", "quantity": "Registration" } }
+        },
+        "Natación bebés y niños": {
+          "title": "Swimming for babies and children",
+          "items": {
+            "1": { "description": "Swimming for babies and children", "quantity": "Once / week" },
+            "2": { "description": "Swimming for babies and children", "quantity": "Twice / week" },
+            "3": { "description": "Swimming for babies and children", "quantity": "1 swimming lesson" }
+          }
+        },
+        "Intensivos": {
+          "title": "Intensive courses",
+          "items": {
+            "1": { "description": "Intensive course", "quantity": "1 day" },
+            "2": { "description": "Intensive course", "quantity": "10 days" }
+          }
+        },
+        "Clases de natación personalizadas": {
+          "title": "Private swimming\nlessons",
+          "items": {
+            "1": { "description": "Private swimming lessons", "quantity": "1 lesson" },
+            "2": { "description": "Private swimming lessons", "quantity": "1 lesson for 2 people" }
+          }
+        },
+        "Natación adulto (Enseñanza)": {
+          "title": "Adult swimming (Lessons)",
+          "items": { "1": { "description": "Adult swimming (Lessons)", "quantity": "Once / week" } }
+        },
+        "Natación adulto (Senior Master)": {
+          "title": "Adult swimming (Senior Master)",
+          "items": {
+            "1": { "description": "Adult swimming (Senior Master)", "quantity": "Twice / week" },
+            "2": { "description": "Adult swimming (Senior Master)", "quantity": "3 times / week" },
+            "3": { "description": "Adult swimming (Senior Master)", "quantity": "4 times / week" }
+          }
+        },
+        "Hidroterapia": {
+          "title": "Hydrotherapy",
+          "items": {
+            "1": { "description": "Special water exercise", "quantity": "1 session (group)" },
+            "2": { "description": "Special water exercise", "quantity": "Private session" }
+          }
+        },
+        "Gimnasio": {
+          "title": "Gym",
+          "items": { "1": { "description": "", "quantity": "Monthly membership" } }
+        }
+      }
+    }
+  }
+}

@@ -14,16 +14,19 @@ import Protocolos from './pages/Protocolos'
 import Tarifas from './pages/Tarifas'
 import Horarios from './pages/Horarios'
 import Placeholder from './pages/Placeholder'
-import { navigation, services } from './content'
+import { useContent, formatText } from './content'
 import './App.css'
 
 function App() {
+  const { copy, navigation, services } = useContent()
   const path = `${window.location.pathname.replace(/\/+$/, '')}/`
-  const page = [...navigation, ...services, { label: 'Mente & cuerpo', href: '/mente-y-cuerpo/' }, { label: 'Tratamiento de datos', href: '/tratamiento-de-datos/' }].find((item) => item.href === path)
+  const page = [...navigation, ...services, { label: copy.shared.additionalPages.mindAndBody, href: '/mente-y-cuerpo/' }, { label: copy.shared.additionalPages.informationPolicy, href: '/tratamiento-de-datos/' }].find((item) => item.href === path)
 
   useEffect(() => {
-    document.title = `${page?.label || 'Página no encontrada'} - Brazada`
-  }, [page?.label])
+    document.title = formatText(copy.metadata.titleTemplate, { page: page?.label || copy.shared.placeholder.notFound })
+    document.documentElement.lang = copy.metadata.language
+    document.querySelector('meta[name="description"]').content = copy.metadata.description
+  }, [copy, page?.label])
 
   let content = <Placeholder page={page} />
   if (path === '/') content = <Landing />
@@ -40,7 +43,7 @@ function App() {
 
   return (
     <>
-      <a className="skip-link" href="#main-content">Saltar al contenido</a>
+      <a className="skip-link" href="#main-content">{copy.shared.app.skipLink}</a>
       <Header path={path} />
       {content}
       <Footer />

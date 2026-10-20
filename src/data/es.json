@@ -1,0 +1,518 @@
+{
+  "metadata": {
+    "language": "es",
+    "defaultTitle": "Inicio - Brazada",
+    "titleTemplate": "{page} - Brazada",
+    "description": "Brazada: una experiencia positiva más allá del deporte para toda la vida. Natación, hidrogimnasia y fitness en San Lucas, El Poblado."
+  },
+  "navigation": {
+    "home": "Inicio",
+    "regulations": "Normatividad",
+    "services": "Servicios",
+    "about": "Porqué Brazada",
+    "pricing": "Tarifas",
+    "schedule": "Horarios",
+    "contact": "Contáctenos"
+  },
+  "services": {
+    "swimming": "Natación",
+    "fitness": "Fitness",
+    "waterExercise": "Hidrogimnasia",
+    "massage": "Masajes",
+    "protocols": "Protocolos"
+  },
+  "shared": {
+    "contactDialog": {
+      "close": "Cerrar formulario",
+      "title": "Contáctenos"
+    },
+    "contactForm": {
+      "phonePlaceholder": "Teléfono...",
+      "name": "Nombre",
+      "phone": "Teléfono",
+      "email": "Correo electrónico",
+      "message": "Mensaje",
+      "namePlaceholder": "Nombre...",
+      "emailPlaceholder": "Correo electrónico...",
+      "messagePlaceholder": "Mensaje...",
+      "submitPage": "Enviar formulario",
+      "submitFooter": "Enviar mensaje",
+      "note": "Se abrirá WhatsApp para que confirmes el envío de tu mensaje.",
+      "submittedNote": "Continúa en la nueva pestaña de WhatsApp y confirma el envío de tu mensaje.",
+      "whatsappMessage": "Hola, soy {name}.\n{phone}Correo electrónico: {email}\n\n{message}",
+      "whatsappPhone": "Teléfono: {phone}\n"
+    },
+    "footer": {
+      "facebook": "Brazada en Facebook",
+      "instagram": "Brazada en Instagram",
+      "youtube": "Brazada en YouTube",
+      "contact": "Contáctenos",
+      "description": "Brazada es un espacio amable, lleno de verde y de luz, con excelentes instalaciones para cada práctica.",
+      "phone": "+57 310 538 6485",
+      "services": "Servicios",
+      "writeToUs": "Escríbenos",
+      "copyright": "Copyright © 2024 Brazada",
+      "followUs": "Síguenos"
+    },
+    "header": {
+      "spanish": "Español",
+      "english": "English",
+      "homeLink": "Brazada — Inicio",
+      "logoAlt": "Brazada, Institución de Educación para el Trabajo y el Desarrollo Humano",
+      "mainNavigation": "Menú principal",
+      "search": "Buscar en Brazada",
+      "services": "Servicios",
+      "closeSearch": "Cerrar búsqueda",
+      "searchInput": "Buscar una página",
+      "searchPlaceholder": "Buscar una página…",
+      "noResults": "No se encontraron páginas.",
+      "openMenu": "Abrir menú",
+      "closeMenu": "Cerrar menú"
+    },
+    "serviceLayout": {
+      "moreInformation": "Para más información",
+      "viewPricing": "Ver tarifas"
+    },
+    "siteActions": {
+      "whatsapp": "Hablar con Brazada por WhatsApp",
+      "backToTop": "Volver arriba"
+    },
+    "placeholder": {
+      "notFound": "Página no encontrada",
+      "backHome": "Volver al inicio"
+    },
+    "additionalPages": {
+      "mindAndBody": "Mente & cuerpo",
+      "informationPolicy": "Tratamiento de datos"
+    },
+    "app": {
+      "skipLink": "Saltar al contenido"
+    },
+    "whatsappRequest": "Hola, tengo una solicitud"
+  },
+  "pages": {
+    "contactenos": {
+      "title": "Contáctenos",
+      "bannerAlt": "Instalaciones de Brazada en Medellín",
+      "detailsLabel": "Ubicación y datos de contacto",
+      "mapTitle": "Ubicación de Brazada en Google Maps",
+      "formLabel": "Formulario de contacto",
+      "facebook": "Brazada en Facebook",
+      "instagram": "Brazada en Instagram",
+      "youtube": "Brazada en YouTube",
+      "addressLabel": "Dirección",
+      "address": "Calle 18 sur # 24-44",
+      "city": "Medellín, Colombia.",
+      "whatsappLabel": "WhatsApp",
+      "phone": "+57 310 538 6485",
+      "phoneLabel": "Teléfono",
+      "emailLabel": "Correo electrónico",
+      "email": "brazada12@gmail.com",
+      "introduction": "En Brazada reconocemos la individualidad de las personas. Por eso diseñamos un Plan Integral con el que cada usuario, de acuerdo con sus necesidades, deseos y disponibilidad, organiza su plan de entrenamiento físico.",
+      "followUs": "Síguenos"
+    },
+    "fitness": {
+      "title": "Fitness",
+      "bannerAlt": "Entrenamiento físico en Brazada",
+      "spinning": {
+        "alt": "Bicicletas estáticas para las clases de spinning",
+        "title": "Spinning",
+        "text": "El ciclismo estático es un entrenamiento de bajo impacto para personas de cualquier edad y condición física. Mejora las capacidades aeróbicas, fortalece los músculos y contribuye a la pérdida de peso."
+      },
+      "circuit": {
+        "title": "Circuito",
+        "text": "La resistencia aeróbica mejora considerablemente con esta modalidad dinámica y variada de entrenamiento, que se basa en la repetición sincronizada de series de ejercicios. Los músculos se definen sin aumentar su masa, al tiempo que disminuye el tejido graso."
+      },
+      "core": {
+        "alt": "Ejercicios de core y tono muscular",
+        "title": "Core",
+        "text": "Los ejercicios de core enfatizan en el fortalecimiento de la zona media del cuerpo. Con ellos se mejora la flexibilidad de los movimientos del tronco, se aumenta el equilibrio y la coordinación y se incrementa la firmeza postural, entre otros beneficios."
+      },
+      "tone": {
+        "title": "Tono",
+        "text": "La práctica regular de los ejercicios de tono mejora la flexibilidad y fuerza de los músculos y aumenta su rigidez para soportar cargas, bases para conseguir una buena postura. Adicionalmente ayuda en la metabolización de grasas y calorías."
+      },
+      "trx": {
+        "alt": "Entrenamiento con bandas y resortes",
+        "title": "TRX",
+        "text": "Las prácticas de TRX combinan el trabajo cardiovascular con el muscular. Sus resultados se muestran en la reducción de los niveles de grasa, la tonificación de los grupos musculares y una mejor condición física."
+      },
+      "springs": {
+        "title": "Resortes",
+        "text": "Músculos y huesos se benefician con la práctica de resortes. Además de sus bondades fisioterapéuticas, estos ejercicios tonifican y definen los músculos. Según la orientación del trabajo, se puede optar por aumentar o no la masa muscular."
+      },
+      "cardio": {
+        "alt": "Máquinas y pesas del gimnasio de Brazada",
+        "title": "Cardio – Pesas",
+        "text": "Los ejercicios cardiovasculares aumentan nuestro ritmo cardiorrespiratorio, así que quemamos más calorías rápidamente al tiempo que mejoramos nuestro metabolismo y se fortalece nuestro corazón y pulmones. Además disminuye el nivel de hormonas del estrés, gracias a que liberamos endorfinas.",
+        "weightsText": "El objetivo principal de levantar pesas es el de fortalecer los músculos, aumentar su tamaño, potencia y aguante."
+      },
+      "pilates": {
+        "alt": "Práctica de Pilates en Brazada",
+        "title": "Pilates",
+        "text": "Un cuerpo elástico y armonioso, con músculos fuertes y definidos, es la promesa de la práctica de Pilates. Pero además este sistema de ejercicio, basado en la respiración y la coordinación de movimientos precisos, relaja la mente y disminuye el estrés."
+      }
+    },
+    "hidrogimnasia": {
+      "title": "Hidrogimnasia",
+      "bannerAlt": "Actividades acuáticas en Brazada",
+      "therapy": {
+        "alt": "Ejercicios de hidroterapia en la piscina",
+        "title": "Hidroterapia",
+        "text": "El agua es un medio adecuado para rehabilitar y reincorporar a las actividades de su vida diaria a las personas que así lo necesiten. La fuerza hidrostática exige menos esfuerzo del corazón y a la vez potencia el trabajo de los sistemas óseo y muscular."
+      },
+      "backdrop": "Brazada",
+      "exercise": {
+        "alt": "Clase de hidrogimnasia al aire libre",
+        "title": "Hidrogimnasia",
+        "text": "El sol. El aire libre y el agua tienen un efecto revitalizante. Los ejercicios que se hacen en el medio acuático son de bajo impacto y tienen resultados favorables en los músculos, sistema cardiorrespiratorio y en la elasticidad, además disminuyen el estrés."
+      },
+      "contact": "Contáctenos"
+    },
+    "horarios": {
+      "title": "Horarios",
+      "bannerAlt": "Piscina de Brazada",
+      "imageAlt": "Clase de natación infantil en Brazada"
+    },
+    "landing": {
+      "hero": {
+        "poolAlt": "Piscina al aire libre de Brazada",
+        "swimmingAlt": "Clase de natación en la piscina de Brazada",
+        "trainingAlt": "Actividad física y entrenamiento en Brazada",
+        "wellbeingAlt": "Deporte y bienestar en Brazada",
+        "label": "Bienestar en Brazada",
+        "title": "BIENESTAR",
+        "subtitle": "UN ESTILO DE VIDA",
+        "hashtag": "#yosoybrazada"
+      },
+      "cards": {
+        "swimmingDescription": "Bebés, niños, jóvenes y adultos",
+        "hydroDescription": "Hidrogimnasia | Hidroterapia",
+        "fitnessDescription": "Cardio, pesas, tono, core, circuito, spinning, pilates, masajes, jiu-jitsu, entre otros"
+      },
+      "carousel": {
+        "role": "carrusel",
+        "image": {
+          "previous": "Imagen anterior",
+          "next": "Imagen siguiente",
+          "play": "Reproducir imágenes",
+          "pause": "Pausar imágenes"
+        },
+        "testimonial": {
+          "previous": "Testimonio anterior",
+          "next": "Testimonio siguiente",
+          "play": "Reproducir testimonios",
+          "pause": "Pausar testimonios"
+        }
+      },
+      "servicesLabel": "Nuestros servicios",
+      "institutionLabel": "Nuestra institución",
+      "videoTitle": "Entrenamiento — Brazada Centro Deportivo",
+      "backdrop": "Brazada",
+      "visionTitle": "Visión",
+      "objectiveTitle": "General",
+      "objectiveBackdrop": "Objetivo",
+      "testimonialsLabel": "Testimonios",
+      "introduction": "Una experiencia positiva más allá del deporte para toda la vida",
+      "learnMore": "Saber más",
+      "missionTitle": "Misión",
+      "instagram": {
+        "title": "Síguenos en",
+        "platform": "instagram",
+        "handle": "@brazadacentrodeportivo",
+        "allPosts": "Todas las publicaciones"
+      },
+      "institution": {
+        "about": {
+          "title": "Institución de Educación para el Trabajo y el Desarrollo Humano IETDH",
+          "text": "Ubicados en San Lucas, El Poblado. Brazada es un lugar campestre, con espacios aireados, amplios e iluminados. Con excelentes instalaciones para la práctica deportiva amateur o profesional. Con 28 años de experiencia impulsando la actividad física como un estilo de vida."
+        },
+        "mission": "Somos una Institución Educativa que brinda espacios para el desarrollo físico, psíquico, social y recreativo, a través de la enseñanza de la natación y cursos de recreación y deporte, enfocados en el bienestar y mejoramiento de la calidad de vida de niños, jóvenes y adultos, orientados por nuestro PEI y bajo los criterios de humanismo, perfección deportiva, profesionalismo y mejora continua. Con 28 años de experiencia impulsando la actividad física como un estilo de vida.",
+        "vision": "Nos proyectamos hacia el año 2025, como la Institución Educativa líder en la enseñanza de la natación, recreación y el deporte, por medio de instructores altamente capacitados, eficiencia administrativa, calidad, recursos e instalaciones a la vanguardia del mercado. Con 28 años de experiencia impulsando la actividad física como un estilo de vida.",
+        "objective": "Ofrecer servicios educativos en el área de actividades acuáticas, enfocados en la enseñanza de la natación, promoviendo el deporte, la recreación, el uso conveniente del tiempo libre; y facilitando la adquisición de competencias, habilidades y destrezas en el área de formación. Con 28 años de experiencia impulsando la actividad física como un estilo de vida."
+      },
+      "testimonials": [
+        {
+          "name": "Carolina Hernández",
+          "text": "Lo que más me gusta de Brazada es la variedad que tienen para uno ejercitarse. Tu puedes salir de una clase de cardio (rumba o spinning) y luego relajar los músculos en stretching o natación.",
+          "role": "Alumna Brazada"
+        },
+        {
+          "name": "Beatriz Mesa",
+          "text": "Que las clases sean algo divertido y didáctico es muy importante para el desarrollo, porque aprender con una buena experiencia, es algo que queda en el recuerdo por siempre con alegría.",
+          "role": "Abuela de alumna de natación"
+        },
+        {
+          "name": "Yakelin Ortíz Restrepo",
+          "text": "Una de mis pacientes al cumplir 5 sesiones de tratamiento, comentó que estaba feliz con la terapia, pues había cambiado 4 pastillas diarias para el dolor por ejercicio fisioterapéutico 2 veces por semana.",
+          "role": "Hidroterapia"
+        },
+        {
+          "name": "Adriana María Torres Velásquez",
+          "text": "Mi ambiente favorito es el agua, así que Brazada me da la oportunidad de disfrutarla mientras activo mi cuerpo con el ejercicio. Mi sobrina aprendió a nadar con la guía de sus excelentes profesores. Además me siento muy acogida en este lugar, siempre me reciben con una sonrisa de bienvenida! Gracias a la familia de Brazada!",
+          "role": "Alumna Hidro"
+        },
+        {
+          "name": "Natalia Fernández",
+          "text": "Me siento como en casa porque desde que llego a la clase, los compañeros y alumnos, nos saludamos y la alegría que transmitimos nos hace más satisfactoria la jornada. Escuchar que los alumnos me dicen \"profe me encantó la clase, que belleza lo que hicimos\" me llena de orgullo.",
+          "role": "Yoga/Pilates/Stretching"
+        },
+        {
+          "name": "Mauricio Ospina",
+          "text": "Después de una divertida clase de Jiu-Jitsu con los niños en Brazada, sentir su alegría y la de las personas que los acompañan cuando superan barreras, me inspira a seguir enseñando con pasión.",
+          "role": "Profesor de Jiu-Jitsu"
+        },
+        {
+          "name": "Adriana Gómez",
+          "text": "Mi lugar preferido, donde cada día se viven distintas experiencias. Me encanta cuando llegan los niños a decirme ¡Adri con qué profe me toca!, ¿me llevas? ¿me acompañas?",
+          "role": "Coordinadora"
+        },
+        {
+          "name": "Estephania Hernández Gallego",
+          "text": "La academia Brazada ha sido mi lugar de formación. Me dio la oportunidad de desempeñar esta maravillosa labor desde hace 10 años y siempre he podido aprender y formarme como persona.",
+          "role": "Profesora de natación"
+        },
+        {
+          "name": "Mónica Torres",
+          "text": "Mi alumno me dice Sargento Mayor, en vez de profe. Dice que soy un mal necesario porque si no hiciera la clase de hidro no estaría jugando tennis de campo. -Alumno de 83 años-",
+          "role": "Profesora de hidrogimnasia personalizada"
+        },
+        {
+          "name": "Alejandro Ramirez Restrepo",
+          "text": "Un día antes de comenzar la clase de natación, una alumna le dijo a su mamá que ella tenía clase con el profesor que siempre estaba feliz y que eso era lo que más le gustaba de la clase.",
+          "role": "Profesor de natación"
+        },
+        {
+          "name": "Carolina Hernández",
+          "text": "Lo que más me gusta de Brazada es la variedad que tienen para uno ejercitarse. Tu puedes salir de una clase de cardio (rumba o spinning) y luego relajar los músculos en stretching o natación."
+        },
+        {
+          "name": "Carolina Hernández",
+          "text": "Conocí Brazada porque entré a hidrogimnasia en mi época de embarazada y me encantó el lugar! Sabía de el pero no sabía que era un gym con tantas opciones. El agua era lo mejor para el embarazo, pero más adelante cuando pude retomar el ejercicio empecé sin falta en las clases de yoga, pilates y stretching."
+        },
+        {
+          "name": "María Eugenia Espinosa",
+          "text": "Nadar aquí me encanta, porque es un sitio muy familiar, muy tranquilo. Todo el mundo viene con actitud de deporte. Todos los empleados son amables y serviciales. Sara increíble!",
+          "role": "Natación libre"
+        },
+        {
+          "name": "Beatriz Mesa",
+          "text": "Que las clases sean algo divertido y didáctico es muy importante para el desarrollo, porque aprender con una buena experiencia, es algo que queda en el recuerdo por siempre con alegría."
+        },
+        {
+          "name": "Natalia Corredor",
+          "text": "Los masajes en Brazada son deliciosos, la terapéuta es casi maga, Lorena me ha curado lumbagos y dolores de rodilla, me ha ayudado a disminuir los dolores de espalda causados por mi escoliosis, además cuando necesito me hace pura relajación! Lorena hasta de confidente funciona <3"
+        },
+        {
+          "name": "Natalia Corredor - Ricardo Corredor",
+          "text": "Mi papá después de estar 45 días hospitalizado, limitado en movimiento, ha descubierto lo maravilloso que es la hidroterapia, dice que solo por calidad de vida cualquier adulto debería sacarle tiempo a esta deliciosa manera de hacer ejercicio \" muevo todos mis músculos y no tengo chance de lastimarme\" dice muy contento."
+        },
+        {
+          "name": "Luz Stella de Sánchez",
+          "text": "La hidroterapia cambió mi vida. Me siento más activa, dinámica, he perdido peso y estoy caminando mejor. En Brazada encontré lo que necesitaba."
+        },
+        {
+          "name": "Fabiola Medina",
+          "text": "Una experiencia muy enriquecedora, más que por el ejercicio, por las personas que conocí con las que comparto con mucha alegría. Acá me siento como en casa."
+        },
+        {
+          "name": "Olga Brand",
+          "text": "Es un recomienzo después de venir de un proceso de cáncer de mama. Llegué a este lugar donde encontré un grupo maravilloso.",
+          "role": "Hidrogimnasia"
+        },
+        {
+          "name": "Juliana Franco Uribe",
+          "text": "Barzada para mi es: A.legría M.ovilidad  O.bjetividad R.ecreación Paso muy rico aquí con todo y principalmente con TODOS",
+          "role": "Alumna Brazada"
+        }
+      ]
+    },
+    "masajes": {
+      "title": "Masajes",
+      "bannerAlt": "Masajes terapéuticos y de relajación en Brazada",
+      "imageAlt": "Sesión de masaje en Brazada",
+      "heading": "Masajes",
+      "backdrop": "Brazada",
+      "introduction": "Reflexología, drenaje linfático, masajes terapéutico, de relajación y deportivos son algunas de las opciones que tenemos en Brazada.",
+      "benefits": "El masaje deportivo es una técnica manual que tiene como finalidad mejorar el rendimiento y el estado físico del deportista. Se aplica con el objetivo de que el deportista pueda alcanzar la puesta en forma óptima, además de prevenir y evitar lesiones o acelerar la rehabilitación de los problemas musculares que ya tuviera.",
+      "application": "Este tipo de masaje, se puede emplear tanto como preparación previa al entrenamiento o competición, o para estirar y relajar la musculatura después de realizar el entrenamiento diario."
+    },
+    "natacion": {
+      "title": "Natación",
+      "bannerAlt": "Piscina de Brazada para clases de natación",
+      "babies": {
+        "alt": "Bebé acompañado durante una clase de natación",
+        "title": "Bebés",
+        "text": "Clases desde los seis meses de edad, para que los bebés se familiaricen con el medio acuático, disfruten de él y se recreen, ejerciten su cuerpo y desarrollen habilidades motrices."
+      },
+      "backdrop": "Natación",
+      "children": {
+        "alt": "Niños aprendiendo a nadar en Brazada",
+        "title": "Niños",
+        "subtitle": "Enseñanza, entrenamiento",
+        "text": "Además de ser una herramienta de supervivencia, la práctica de la natación les da a los niños la posibilidad de ejercitarse y de interactuar con sus compañeros en un ambiente de camaradería y amor por la naturaleza."
+      },
+      "adults": {
+        "alt": "Entrenamiento de natación para adultos",
+        "title": "Adultos",
+        "subtitle": "Enseñanza, entrenamiento, Senior master",
+        "text": "Desde aprender a nadar, hasta entrenar para mejorar su estado físico y perfeccionar algunos detalles de técnica, son las opciones que ofrecemos para las personas adultas."
+      },
+      "diving": {
+        "alt": "Práctica de buceo en la piscina de Brazada",
+        "title": "Buceo",
+        "text": "Aprender a bucear es regalarse la oportunidad de vivir las sensaciones y emociones inigualables del mundo subacuático. Espíritu sereno, mente relajada, autoconfianza, comunión con la naturaleza son algunos de los tesoros que nos entregan las aguas profundas"
+      },
+      "introduction": "Ofrecemos el programa de Natación y Habilidades Acuáticas, con la inspección y vigilancia de la Secretaría de Educación de Medellín.",
+      "contact": "Contáctenos"
+    },
+    "normatividad": {
+      "licensingLines": [
+        "Institución de Educación para el Trabajo y Desarrollo Humano (IETDH) BRAZADA,",
+        "con licencia de funcionamiento otorgada por la Secretaría de Educación de Medellín",
+        "bajo la Resolución número 12322 del 17 de septiembre de 2010.",
+        "Ofrece el programa en Natación y Habilidades Acuáticas, registrado en la Secretaría",
+        "de Educación de Medellín bajo la Resolución número 202250086753 del 27 de julio",
+        "de 2022. Al cumplir con todos niveles de formación se otorga el Certificado de",
+        "Aptitud Ocupacional en Conocimientos Académicos en Natación y Habilidades",
+        "Acuáticas. Este certificado no conduce a título profesional.",
+        "La inspección y vigilancia de este programa está a cargo de la SECRETARÍA DE",
+        "EDUCACIÓN DE MEDELLÍN."
+      ],
+      "bannerAlt": "Piscina de Brazada durante una clase de natación",
+      "heading": "Normatividad",
+      "backdrop": "Brazada",
+      "policy": {
+        "title": "de Datos",
+        "backdrop": "Tratamiento",
+        "introduction": "Encuentra aquí nuestra ",
+        "link": "política de tratamiento de información"
+      },
+      "title": "Normatividad"
+    },
+    "porqueBrazada": {
+      "story": {
+        "paragraphs": [
+          "Brazada es una institución donde trabajamos con entusiasmo por enseñar y propiciar la práctica de actividades deportivas y de acondicionamiento físico. Nacimos en 1990, como Academia de Natación de Pablo Restrepo, y a partir de nuestra convicción de que enseñar a nadar es regalar a otros la oportunidad de gozar de bienestar, salud física y mental, incluimos con el tiempo más actividades que aportaran iguales beneficios.",
+          "Brazada es un espacio amable, lleno de verde y de luz, con excelentes instalaciones para cada práctica. Quienes nos visitan se sienten acogidos en un ambiente familiar y tranquilo, y reciben la atención cálida y personalizada de nuestros instructores profesionales. En Brazada sabemos que la alegría y la tranquilidad interior provienen de sentir sanos y en equilibrio nuestro cuerpo y nuestra mente. ¡Y además sabemos cómo acompañarlo para que usted lo viva!."
+        ],
+        "title": "Somos",
+        "backdrop": "Quiénes",
+        "imageAlt": "Instalaciones y piscina de Brazada, rodeadas de vegetación",
+        "gymAlt": "Gimnasio de Brazada con equipos de acondicionamiento físico"
+      },
+      "features": {
+        "title": "Diferencia",
+        "backdrop": "Nos",
+        "safetyAlt": "Instructora acompañando a una alumna sobre una mesa de seguridad en la piscina",
+        "liftAlt": "Grúa de acceso a la piscina de Brazada",
+        "accessibilityAlt": "Escaleras y pasamanos para un acceso seguro a la piscina",
+        "safety": "Mesas de seguridad",
+        "lift": "Grúa ",
+        "accessibility": "Accesibilidad"
+      },
+      "video": {
+        "open": "Ver video de la grúa de acceso a la piscina",
+        "close": "Cerrar video",
+        "iframeTitle": "Grúa de acceso a la piscina de Brazada",
+        "watch": "Ver video",
+        "title": "Grúa de acceso a la piscina",
+        "youtube": "Ver en YouTube"
+      },
+      "bannerAlt": "Clase de actividad acuática en la piscina de Brazada",
+      "title": "Sobre nosotros"
+    },
+    "protocolos": {
+      "pool": {
+        "items": [
+          "Utilizar pantaloneta de Licra (niños, jóvenes y adultos).",
+          "Utilizar de carácter obligatorio el GORRO DE BAÑO para ambos sexos.",
+          "DUCHARSE antes de ingresar.",
+          "Pasar por el lavapies a la entrada y a la salida.",
+          "No ingresar alimentos o bebidas al área de la piscina.",
+          "No ingresar calzado de la calle al área de la piscina.",
+          "No usar bronceador para ingresar a la piscina."
+        ],
+        "alt": "Piscina de Brazada",
+        "title": "Piscina"
+      },
+      "private": {
+        "items": [
+          "Pagar por anticipado las clases que tome durante el mes.",
+          "Si necesita cancelar la clase, debe hacerlo antes de 2 horas. Ésta se podrá reemplazar durante el mismo mes."
+        ],
+        "title": "Clases de natación personalizadas"
+      },
+      "children": {
+        "items": [
+          "Programar día y hora de clase y cumplir con ese horario.",
+          "Se cancela el mes completo.",
+          "Sólo en caso de enfermedad se pueden reemplazar las clases a las que no asistió.",
+          "Presentar la excusa médica y acordar con la coordinadora día y hora del reemplazo (solo en semana).",
+          "Llevar a los niños al baño antes de ingresar a la piscina.",
+          "Pagar oportunamente la mensualidad para tener el derecho a reposición de clases.",
+          "Los niños solo deben ingresar al área de la piscina con el instructor."
+        ],
+        "alt": "Clases de natación para niños",
+        "title": "Clases de natación niños"
+      },
+      "gym": {
+        "items": [
+          "Utilizar tenis, camiseta y toalla pequeña para el sudor.",
+          "No entrar de sandalias, descalzos o mojados, ni comer en los salones de clase.",
+          "Tener en cuenta las indicaciones del manejo adecuado de las máquinas.",
+          "Área exclusiva para jóvenes y adultos."
+        ],
+        "alt": "Gimnasio de Brazada",
+        "title": "Gimnasio"
+      },
+      "room": {
+        "items": [
+          "Dejar los zapatos fuera del salón.",
+          "Traer toalla para colchonetas o mat.",
+          "Área exclusiva para jóvenes y adultos."
+        ],
+        "title": "Salón segundo piso"
+      },
+      "bathrooms": {
+        "items": [
+          "Tomarse el tiempo justo para la ducha.",
+          "Por favor no dejar la llave del agua abierta para lavar el vestido de baño mientras se ducha, se enjabona o se lava el cabello.",
+          "Los niños de 5 años en adelante deben utilizar el baño de acuerdo a su sexo."
+        ],
+        "alt": "Baños de las instalaciones de Brazada",
+        "title": "Baños"
+      },
+      "parking": {
+        "items": [
+          "Dejar el carro bien cerrado y no dejar objetos de valor.",
+          "No dejar niños solos en el carro.",
+          "No ocupar dos celdas en el momento de parquear.",
+          "La Academia no se hace responsable de pérdidas."
+        ],
+        "title": "Parqueadero"
+      },
+      "general": {
+        "items": [
+          "No traer objetos de valor.",
+          "Hacer uso del locker. No se permitirá dejar objetos y bolsos en la recepción.",
+          "No ingresar mascotas.",
+          "El café es una cortesía. Solicitarlo directamente en la cafetería y agradecemos el uso moderado de él.",
+          "Hacer los pagos de las mensualidades oportunamente.",
+          "La mensualidad se paga los primeros cinco días del mes.",
+          "Recuerde que el pago es mensual. Al tener el cupo reservado, la academia cuenta con su asistencia al momento de asignar los instructores. NO SE COBRA POR CLASE ASISTIDA, SINO POR CUPO RESERVADO.",
+          "En ningún caso habrá excepciones."
+        ],
+        "alt": "Espacios de atención de Brazada",
+        "title": "Generales"
+      },
+      "title": "Protocolos",
+      "bannerAlt": "Instalaciones de Brazada",
+      "acknowledgement": "Leído y comprendido"
+    },
+    "tarifas": {
+      "title": "Tarifas",
+      "bannerAlt": "Piscina e instalaciones de Brazada"
+    }
+  }
+}

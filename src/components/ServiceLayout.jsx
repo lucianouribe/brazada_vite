@@ -1,3 +1,4 @@
+import { useContent } from '../content'
 import PageBanner from './PageBanner'
 import ActionLink from './ActionLink'
 import ContactDialog from './ContactDialog'
@@ -22,14 +23,16 @@ export function ServiceCopy({ title, children, className = '' }) {
 }
 
 export default function ServiceLayout({ title, banner, bannerAlt, className, children }) {
+  const { copy } = useContent()
+  const content = copy.shared.serviceLayout
   return (
     <main id="main-content" className={`service-page ${className}`}>
       <PageBanner title={title} image={banner} alt={bannerAlt} />
       <div className="service-rows page-width">{children}</div>
       <section className="service-information page-width" aria-labelledby="service-information-title">
-        <h2 id="service-information-title">Para más información</h2>
+        <h2 id="service-information-title">{content.moreInformation}</h2>
         <div className="service-information-actions">
-          <ActionLink href="/tarifas/">Ver tarifas</ActionLink>
+          <ActionLink href="/tarifas/">{content.viewPricing}</ActionLink>
           <ContactDialog />
         </div>
       </section>

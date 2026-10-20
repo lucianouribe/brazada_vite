@@ -6,40 +6,42 @@ import diving from '../assets/imgs/natacion_buceo.jpg'
 import ServiceLayout, { ServiceRow } from '../components/ServiceLayout'
 import SectionHeading from '../components/SectionHeading'
 import ActionLink from '../components/ActionLink'
-import { whatsappUrl } from '../content'
+import { useContent, whatsappUrl } from '../content'
 
 export default function Natacion() {
-  const contactUrl = `${whatsappUrl}?text=${encodeURIComponent('Hola, tengo una solicitud')}`
+  const { copy } = useContent()
+  const content = copy.pages.natacion
+  const contactUrl = `${whatsappUrl}?text=${encodeURIComponent(copy.shared.whatsappRequest)}`
 
   return (
-    <ServiceLayout title="Natación" banner={banner} bannerAlt="Piscina de Brazada para clases de natación" className="natacion-page">
-      <ServiceRow image={babies} imageSize={600} alt="Bebé acompañado durante una clase de natación">
-        <p className="swimming-introduction">Ofrecemos el programa de Natación y Habilidades Acuáticas, con la inspección y vigilancia de la Secretaría de Educación de Medellín.</p>
+    <ServiceLayout title={content.title} banner={banner} bannerAlt={content.bannerAlt} className="natacion-page">
+      <ServiceRow image={babies} imageSize={600} alt={content.babies.alt}>
+        <p className="swimming-introduction">{content.introduction}</p>
         <div className="swimming-babies">
-          <SectionHeading title="Bebés" backdrop="Natación" />
-          <p>Clases desde los seis meses de edad, para que los bebés se familiaricen con el medio acuático, disfruten de él y se recreen, ejerciten su cuerpo y desarrollen habilidades motrices.</p>
-          <ActionLink href={contactUrl} external>Contáctenos</ActionLink>
+          <SectionHeading title={content.babies.title} backdrop={content.backdrop} />
+          <p>{content.babies.text}</p>
+          <ActionLink href={contactUrl} external>{content.contact}</ActionLink>
         </div>
       </ServiceRow>
-      <ServiceRow image={children} imageRight alt="Niños aprendiendo a nadar en Brazada">
+      <ServiceRow image={children} imageRight alt={content.children.alt}>
         <div className="swimming-children">
-          <SectionHeading title="Niños" backdrop="Natación" />
-          <p><strong>Enseñanza, entrenamiento</strong><br />Además de ser una herramienta de supervivencia, la práctica de la natación les da a los niños la posibilidad de ejercitarse y de interactuar con sus compañeros en un ambiente de camaradería y amor por la naturaleza.</p>
-          <ActionLink href={contactUrl} external>Contáctenos</ActionLink>
+          <SectionHeading title={content.children.title} backdrop={content.backdrop} />
+          <p><strong>{content.children.subtitle}</strong><br />{content.children.text}</p>
+          <ActionLink href={contactUrl} external>{content.contact}</ActionLink>
         </div>
       </ServiceRow>
-      <ServiceRow image={adults} alt="Entrenamiento de natación para adultos">
+      <ServiceRow image={adults} alt={content.adults.alt}>
         <div className="swimming-adults">
-          <SectionHeading title="Adultos" backdrop="Natación" />
-          <p><strong>Enseñanza, entrenamiento, Senior master</strong><br />Desde aprender a nadar, hasta entrenar para mejorar su estado físico y perfeccionar algunos detalles de técnica, son las opciones que ofrecemos para las personas adultas.</p>
-          <ActionLink href={contactUrl} external>Contáctenos</ActionLink>
+          <SectionHeading title={content.adults.title} backdrop={content.backdrop} />
+          <p><strong>{content.adults.subtitle}</strong><br />{content.adults.text}</p>
+          <ActionLink href={contactUrl} external>{content.contact}</ActionLink>
         </div>
       </ServiceRow>
-      <ServiceRow image={diving} imageRight alt="Práctica de buceo en la piscina de Brazada">
+      <ServiceRow image={diving} imageRight alt={content.diving.alt}>
         <div className="swimming-diving">
-          <SectionHeading title="Buceo" backdrop="Natación" />
-          <p>Aprender a bucear es regalarse la oportunidad de vivir las sensaciones y emociones inigualables del mundo subacuático. Espíritu sereno, mente relajada, autoconfianza, comunión con la naturaleza son algunos de los tesoros que nos entregan las aguas profundas</p>
-          <ActionLink href={contactUrl} external>Contáctenos</ActionLink>
+          <SectionHeading title={content.diving.title} backdrop={content.backdrop} />
+          <p>{content.diving.text}</p>
+          <ActionLink href={contactUrl} external>{content.contact}</ActionLink>
         </div>
       </ServiceRow>
     </ServiceLayout>
