@@ -1,6 +1,4 @@
 import { createContext, useContext } from 'react'
-import spanish from './data/es.json'
-import english from './data/en.json'
 
 export const LanguageContext = createContext(null)
 
@@ -11,8 +9,8 @@ export const informationPolicyUrl = '/documents/POLITICA_DE_TRATAMIENTO_DE_INFOR
 export function useContent() {
   const languageContext = useContext(LanguageContext)
   if (!languageContext) throw new Error('useContent requires LanguageProvider')
-  const { language } = languageContext
-  const copy = language === 'en' ? english : spanish
+  const { language, data } = languageContext
+  const copy = data[language]
   const services = [
     { label: copy.services.swimming, href: '/natacion/' },
     { label: copy.services.fitness, href: '/fitness/' },

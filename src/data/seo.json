@@ -1,0 +1,1497 @@
+{
+  "origin": "https://brazada.net",
+  "pages": {
+    "/": {
+      "title": "Inicio - Brazada",
+      "canonical": "https://brazada.net/",
+      "meta": [
+        {
+          "name": "description",
+          "content": "Una experiencia positiva más allá del deporte para toda la vida Natación Natación Bebés, niños, jóvenes y adultos Hidrogimnasia Hidrogimnasia Hidrogimnasia | Hidroterapia Fitness Fitness Cardio, pesas, tono, core, circuito, spinning, pilates, masajes, jiu-jitsu, entre otros INSTITUCIÓN DE EDUCACIÓN PARA EL TRABAJO Y EL DESARROLLO HUMANO IETDH BRAZADA Ubicados en San Lucas, El Poblado. Brazada"
+        },
+        {
+          "name": "robots",
+          "content": "max-image-preview:large"
+        },
+        {
+          "property": "og:locale",
+          "content": "en_US"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Brazada - Centro Deportivo - Academia de Natación"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:title",
+          "content": "Inicio - Brazada"
+        },
+        {
+          "property": "og:description",
+          "content": "Una experiencia positiva más allá del deporte para toda la vida Natación Natación Bebés, niños, jóvenes y adultos Hidrogimnasia Hidrogimnasia Hidrogimnasia | Hidroterapia Fitness Fitness Cardio, pesas, tono, core, circuito, spinning, pilates, masajes, jiu-jitsu, entre otros INSTITUCIÓN DE EDUCACIÓN PARA EL TRABAJO Y EL DESARROLLO HUMANO IETDH BRAZADA Ubicados en San Lucas, El Poblado. Brazada"
+        },
+        {
+          "property": "og:url",
+          "content": "https://brazada.net/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "Inicio - Brazada"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Una experiencia positiva más allá del deporte para toda la vida Natación Natación Bebés, niños, jóvenes y adultos Hidrogimnasia Hidrogimnasia Hidrogimnasia | Hidroterapia Fitness Fitness Cardio, pesas, tono, core, circuito, spinning, pilates, masajes, jiu-jitsu, entre otros INSTITUCIÓN DE EDUCACIÓN PARA EL TRABAJO Y EL DESARROLLO HUMANO IETDH BRAZADA Ubicados en San Lucas, El Poblado. Brazada"
+        }
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://brazada.net/#breadcrumblist",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "@id": "https://brazada.net#listItem",
+                  "position": 1,
+                  "name": "Home"
+                }
+              ]
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://brazada.net/#organization",
+              "name": "Brazada",
+              "description": "Centro Deportivo - Academia de Natación",
+              "url": "https://brazada.net/"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://brazada.net/#webpage",
+              "url": "https://brazada.net/",
+              "name": "Inicio - Brazada",
+              "description": "Una experiencia positiva más allá del deporte para toda la vida Natación Natación Bebés, niños, jóvenes y adultos Hidrogimnasia Hidrogimnasia Hidrogimnasia | Hidroterapia Fitness Fitness Cardio, pesas, tono, core, circuito, spinning, pilates, masajes, jiu-jitsu, entre otros INSTITUCIÓN DE EDUCACIÓN PARA EL TRABAJO Y EL DESARROLLO HUMANO IETDH BRAZADA Ubicados en San Lucas, El Poblado. Brazada",
+              "inLanguage": "en-US",
+              "isPartOf": {
+                "@id": "https://brazada.net/#website"
+              },
+              "breadcrumb": {
+                "@id": "https://brazada.net/#breadcrumblist"
+              },
+              "datePublished": "2018-02-19T16:06:05-05:00",
+              "dateModified": "2023-01-24T16:11:30-05:00"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://brazada.net/#website",
+              "url": "https://brazada.net/",
+              "name": "Brazada",
+              "description": "Centro Deportivo - Academia de Natación",
+              "inLanguage": "en-US",
+              "publisher": {
+                "@id": "https://brazada.net/#organization"
+              }
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "WebSite",
+          "url": "http://brazada.net",
+          "name": "Brazada Centro Deportivo",
+          "alternateName": "Brazada academia de natación, gimnasio en Medellín"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ExerciseGym",
+          "@id": "https://brazada.net",
+          "image": "https://brazada.net/wp-content/uploads/2019/09/cropped-icono.png",
+          "priceRange": "$",
+          "telephone": "+5743171731",
+          "additionalType": "http://brazada.net",
+          "name": "Brazada Centro Deportivo",
+          "logo": "https://brazada.net/wp-content/uploads/2019/09/cropped-icono.png",
+          "description": "Una experiencia positiva más allá del deporte para toda la vida.\r\nUbicados en San Lucas, El Poblado, Medellín. Brazada es un lugar campestre, con espacios aireados, amplios e iluminados, excelentes instalaciones para la práctica deportiva amateur o profesional. Con 28 años de experiencia impulsando la actividad física como un estilo de vida.",
+          "openingHours": [
+            "Mo-Fr 6:00-20:00",
+            "Sa 7:00-14:00"
+          ],
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "6.182306",
+            "longitude": "-75.562508"
+          },
+          "url": "http://brazada.net",
+          "sameAs": [
+            "https://www.instagram.com/brazadacentrodeportivo/",
+            "https://www.facebook.com/brazadacentrodeportivo"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+(57) 4 317 17 31",
+            "contactType": "customer service",
+            "email": "brazada12@gmail.com",
+            "contactOption": "",
+            "areaServed": [
+              "CO"
+            ],
+            "availableLanguage": [
+              "Spanish"
+            ]
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "Colombia",
+            "addressLocality": "Medellín",
+            "addressRegion": "Antioquia",
+            "postalCode": "050022",
+            "streetAddress": "Cl. 18 Sur #24-44"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "@id": "https://brazada.net",
+          "name": "Centro Deportivo Brazada",
+          "description": "Una experiencia positiva más allá del deporte para toda la vida. Gimnasio, Piscina semi olimpica, fitness, masajes. Ubicados en San Lucas, El Poblado, Medellín. Brazada es un lugar campestre, con espacios aireados, amplios e iluminados, excelentes instalaciones para la práctica deportiva amateur o profesional. Con 28 años de experiencia impulsando la actividad física como un estilo de vida.",
+          "image": "https://brazada.net/wp-content/uploads/2019/09/logo-bg-color.png",
+          "priceRange": "$",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Medellín",
+            "addressRegion": "Antioquia",
+            "postalCode": "050022",
+            "streetAddress": "Cl. 18 Sur #24-44"
+          },
+          "telephone": "+5743171731"
+        }
+      ]
+    },
+    "/normatividad/": {
+      "title": "Normatividad - Brazada",
+      "canonical": "https://brazada.net/normatividad/",
+      "meta": [
+        {
+          "name": "description",
+          "content": "Normatividad Brazada Institución de Educación para el Trabajo y Desarrollo Humano (IETDH) BRAZADA, con licencia de funcionamiento otorgada por la Secretaría de Educación de Medellín bajo la Resolución número 12322 del 17 de septiembre de 2010. Ofrece el programa en Natación y Habilidades Acuáticas, registrado en la Secretaría de Educación de Medellín bajo la Resolución"
+        },
+        {
+          "name": "robots",
+          "content": "max-image-preview:large"
+        },
+        {
+          "property": "og:locale",
+          "content": "en_US"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Brazada - Centro Deportivo - Academia de Natación"
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "og:title",
+          "content": "Normatividad - Brazada"
+        },
+        {
+          "property": "og:description",
+          "content": "Normatividad Brazada Institución de Educación para el Trabajo y Desarrollo Humano (IETDH) BRAZADA, con licencia de funcionamiento otorgada por la Secretaría de Educación de Medellín bajo la Resolución número 12322 del 17 de septiembre de 2010. Ofrece el programa en Natación y Habilidades Acuáticas, registrado en la Secretaría de Educación de Medellín bajo la Resolución"
+        },
+        {
+          "property": "og:url",
+          "content": "https://brazada.net/normatividad/"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-08-03T19:08:10+00:00"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2025-01-15T15:47:25+00:00"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "Normatividad - Brazada"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Normatividad Brazada Institución de Educación para el Trabajo y Desarrollo Humano (IETDH) BRAZADA, con licencia de funcionamiento otorgada por la Secretaría de Educación de Medellín bajo la Resolución número 12322 del 17 de septiembre de 2010. Ofrece el programa en Natación y Habilidades Acuáticas, registrado en la Secretaría de Educación de Medellín bajo la Resolución"
+        }
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://brazada.net/normatividad/#breadcrumblist",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "@id": "https://brazada.net#listItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://brazada.net",
+                  "nextItem": {
+                    "@type": "ListItem",
+                    "@id": "https://brazada.net/normatividad/#listItem",
+                    "name": "Normatividad"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "@id": "https://brazada.net/normatividad/#listItem",
+                  "position": 2,
+                  "name": "Normatividad",
+                  "previousItem": {
+                    "@type": "ListItem",
+                    "@id": "https://brazada.net#listItem",
+                    "name": "Home"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://brazada.net/#organization",
+              "name": "Brazada",
+              "description": "Centro Deportivo - Academia de Natación",
+              "url": "https://brazada.net/"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://brazada.net/normatividad/#webpage",
+              "url": "https://brazada.net/normatividad/",
+              "name": "Normatividad - Brazada",
+              "description": "Normatividad Brazada Institución de Educación para el Trabajo y Desarrollo Humano (IETDH) BRAZADA, con licencia de funcionamiento otorgada por la Secretaría de Educación de Medellín bajo la Resolución número 12322 del 17 de septiembre de 2010. Ofrece el programa en Natación y Habilidades Acuáticas, registrado en la Secretaría de Educación de Medellín bajo la Resolución",
+              "inLanguage": "en-US",
+              "isPartOf": {
+                "@id": "https://brazada.net/#website"
+              },
+              "breadcrumb": {
+                "@id": "https://brazada.net/normatividad/#breadcrumblist"
+              },
+              "datePublished": "2022-08-03T14:08:10-05:00",
+              "dateModified": "2025-01-15T10:47:25-05:00"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://brazada.net/#website",
+              "url": "https://brazada.net/",
+              "name": "Brazada",
+              "description": "Centro Deportivo - Academia de Natación",
+              "inLanguage": "en-US",
+              "publisher": {
+                "@id": "https://brazada.net/#organization"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "/porque-brazada/": {
+      "title": "Sobre nosotros - Brazada",
+      "canonical": "https://brazada.net/porque-brazada/",
+      "meta": [
+        {
+          "name": "description",
+          "content": "Diferencia Nos Mesas de seguridad Grúa Ver video Accesibilidad Somos Quiénes Brazada es una institución donde trabajamos con entusiasmo por enseñar y propiciar la práctica de actividades deportivas y de acondicionamiento físico. Nacimos en 1990, como Academia de Natación de Pablo Restrepo, y a partir de nuestra convicción de que enseñar a nadar es regalar"
+        },
+        {
+          "name": "robots",
+          "content": "max-image-preview:large"
+        },
+        {
+          "property": "og:locale",
+          "content": "en_US"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Brazada - Centro Deportivo - Academia de Natación"
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "og:title",
+          "content": "Sobre nosotros - Brazada"
+        },
+        {
+          "property": "og:description",
+          "content": "Diferencia Nos Mesas de seguridad Grúa Ver video Accesibilidad Somos Quiénes Brazada es una institución donde trabajamos con entusiasmo por enseñar y propiciar la práctica de actividades deportivas y de acondicionamiento físico. Nacimos en 1990, como Academia de Natación de Pablo Restrepo, y a partir de nuestra convicción de que enseñar a nadar es regalar"
+        },
+        {
+          "property": "og:url",
+          "content": "https://brazada.net/porque-brazada/"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2018-02-28T13:55:56+00:00"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2023-01-28T15:02:47+00:00"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "Sobre nosotros - Brazada"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Diferencia Nos Mesas de seguridad Grúa Ver video Accesibilidad Somos Quiénes Brazada es una institución donde trabajamos con entusiasmo por enseñar y propiciar la práctica de actividades deportivas y de acondicionamiento físico. Nacimos en 1990, como Academia de Natación de Pablo Restrepo, y a partir de nuestra convicción de que enseñar a nadar es regalar"
+        }
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://brazada.net/porque-brazada/#breadcrumblist",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "@id": "https://brazada.net#listItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://brazada.net",
+                  "nextItem": {
+                    "@type": "ListItem",
+                    "@id": "https://brazada.net/porque-brazada/#listItem",
+                    "name": "Sobre nosotros"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "@id": "https://brazada.net/porque-brazada/#listItem",
+                  "position": 2,
+                  "name": "Sobre nosotros",
+                  "previousItem": {
+                    "@type": "ListItem",
+                    "@id": "https://brazada.net#listItem",
+                    "name": "Home"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://brazada.net/#organization",
+              "name": "Brazada",
+              "description": "Centro Deportivo - Academia de Natación",
+              "url": "https://brazada.net/"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://brazada.net/porque-brazada/#webpage",
+              "url": "https://brazada.net/porque-brazada/",
+              "name": "Sobre nosotros - Brazada",
+              "description": "Diferencia Nos Mesas de seguridad Grúa Ver video Accesibilidad Somos Quiénes Brazada es una institución donde trabajamos con entusiasmo por enseñar y propiciar la práctica de actividades deportivas y de acondicionamiento físico. Nacimos en 1990, como Academia de Natación de Pablo Restrepo, y a partir de nuestra convicción de que enseñar a nadar es regalar",
+              "inLanguage": "en-US",
+              "isPartOf": {
+                "@id": "https://brazada.net/#website"
+              },
+              "breadcrumb": {
+                "@id": "https://brazada.net/porque-brazada/#breadcrumblist"
+              },
+              "datePublished": "2018-02-28T14:55:56-05:00",
+              "dateModified": "2023-01-28T10:02:47-05:00"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://brazada.net/#website",
+              "url": "https://brazada.net/",
+              "name": "Brazada",
+              "description": "Centro Deportivo - Academia de Natación",
+              "inLanguage": "en-US",
+              "publisher": {
+                "@id": "https://brazada.net/#organization"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "/contactenos/": {
+      "title": "Contáctenos - Brazada",
+      "canonical": "https://brazada.net/contactenos/",
+      "meta": [
+        {
+          "name": "description",
+          "content": "Dirección Calle 18 sur # 24-44 Medellín, Colombia. WhatsApp +57 310 538 6485 Teléfono +57 310 538 6485 Correo electrónico brazada12@gmail.com En Brazada reconocemos la individualidad de las personas. Por eso diseñamos un Plan Integral con el que cada usuario, de acuerdo con sus necesidades, deseos y disponibilidad, organiza su plan de entrenamiento físico. ENVIAR"
+        },
+        {
+          "name": "robots",
+          "content": "max-image-preview:large"
+        },
+        {
+          "property": "og:locale",
+          "content": "en_US"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Brazada - Centro Deportivo - Academia de Natación"
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "og:title",
+          "content": "Contáctenos - Brazada"
+        },
+        {
+          "property": "og:description",
+          "content": "Dirección Calle 18 sur # 24-44 Medellín, Colombia. WhatsApp +57 310 538 6485 Teléfono +57 310 538 6485 Correo electrónico brazada12@gmail.com En Brazada reconocemos la individualidad de las personas. Por eso diseñamos un Plan Integral con el que cada usuario, de acuerdo con sus necesidades, deseos y disponibilidad, organiza su plan de entrenamiento físico. ENVIAR"
+        },
+        {
+          "property": "og:url",
+          "content": "https://brazada.net/contactenos/"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2018-03-01T13:16:29+00:00"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2023-10-18T19:06:34+00:00"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "Contáctenos - Brazada"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Dirección Calle 18 sur # 24-44 Medellín, Colombia. WhatsApp +57 310 538 6485 Teléfono +57 310 538 6485 Correo electrónico brazada12@gmail.com En Brazada reconocemos la individualidad de las personas. Por eso diseñamos un Plan Integral con el que cada usuario, de acuerdo con sus necesidades, deseos y disponibilidad, organiza su plan de entrenamiento físico. ENVIAR"
+        }
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://brazada.net/contactenos/#breadcrumblist",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "@id": "https://brazada.net#listItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://brazada.net",
+                  "nextItem": {
+                    "@type": "ListItem",
+                    "@id": "https://brazada.net/contactenos/#listItem",
+                    "name": "Contáctenos"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "@id": "https://brazada.net/contactenos/#listItem",
+                  "position": 2,
+                  "name": "Contáctenos",
+                  "previousItem": {
+                    "@type": "ListItem",
+                    "@id": "https://brazada.net#listItem",
+                    "name": "Home"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://brazada.net/#organization",
+              "name": "Brazada",
+              "description": "Centro Deportivo - Academia de Natación",
+              "url": "https://brazada.net/"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://brazada.net/contactenos/#webpage",
+              "url": "https://brazada.net/contactenos/",
+              "name": "Contáctenos - Brazada",
+              "description": "Dirección Calle 18 sur # 24-44 Medellín, Colombia. WhatsApp +57 310 538 6485 Teléfono +57 310 538 6485 Correo electrónico brazada12@gmail.com En Brazada reconocemos la individualidad de las personas. Por eso diseñamos un Plan Integral con el que cada usuario, de acuerdo con sus necesidades, deseos y disponibilidad, organiza su plan de entrenamiento físico. ENVIAR",
+              "inLanguage": "en-US",
+              "isPartOf": {
+                "@id": "https://brazada.net/#website"
+              },
+              "breadcrumb": {
+                "@id": "https://brazada.net/contactenos/#breadcrumblist"
+              },
+              "datePublished": "2018-03-01T14:16:29-05:00",
+              "dateModified": "2023-10-18T14:06:34-05:00"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://brazada.net/#website",
+              "url": "https://brazada.net/",
+              "name": "Brazada",
+              "description": "Centro Deportivo - Academia de Natación",
+              "inLanguage": "en-US",
+              "publisher": {
+                "@id": "https://brazada.net/#organization"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "/natacion/": {
+      "title": "Natación - Brazada",
+      "canonical": "https://brazada.net/natacion/",
+      "meta": [
+        {
+          "name": "description",
+          "content": "Ofrecemos el programa de Natación y Habilidades Acuáticas, con la inspección y vigilancia de la Secretaría de Educación de Medellín. Bebés Natación Clases desde los seis meses de edad, para que los bebés se familiaricen con el medio acuático, disfruten de él y se recreen, ejerciten su cuerpo y desarrollen habilidades motrices. Contáctenos Niños Natación"
+        },
+        {
+          "name": "robots",
+          "content": "max-image-preview:large"
+        },
+        {
+          "property": "og:locale",
+          "content": "en_US"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Brazada - Centro Deportivo - Academia de Natación"
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "og:title",
+          "content": "Natación - Brazada"
+        },
+        {
+          "property": "og:description",
+          "content": "Ofrecemos el programa de Natación y Habilidades Acuáticas, con la inspección y vigilancia de la Secretaría de Educación de Medellín. Bebés Natación Clases desde los seis meses de edad, para que los bebés se familiaricen con el medio acuático, disfruten de él y se recreen, ejerciten su cuerpo y desarrollen habilidades motrices. Contáctenos Niños Natación"
+        },
+        {
+          "property": "og:url",
+          "content": "https://brazada.net/natacion/"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2019-09-18T20:15:32+00:00"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2023-01-28T14:36:48+00:00"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "Natación - Brazada"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Ofrecemos el programa de Natación y Habilidades Acuáticas, con la inspección y vigilancia de la Secretaría de Educación de Medellín. Bebés Natación Clases desde los seis meses de edad, para que los bebés se familiaricen con el medio acuático, disfruten de él y se recreen, ejerciten su cuerpo y desarrollen habilidades motrices. Contáctenos Niños Natación"
+        }
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://brazada.net/natacion/#breadcrumblist",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "@id": "https://brazada.net#listItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://brazada.net",
+                  "nextItem": {
+                    "@type": "ListItem",
+                    "@id": "https://brazada.net/natacion/#listItem",
+                    "name": "Natación"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "@id": "https://brazada.net/natacion/#listItem",
+                  "position": 2,
+                  "name": "Natación",
+                  "previousItem": {
+                    "@type": "ListItem",
+                    "@id": "https://brazada.net#listItem",
+                    "name": "Home"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://brazada.net/#organization",
+              "name": "Brazada",
+              "description": "Centro Deportivo - Academia de Natación",
+              "url": "https://brazada.net/"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://brazada.net/natacion/#webpage",
+              "url": "https://brazada.net/natacion/",
+              "name": "Natación - Brazada",
+              "description": "Ofrecemos el programa de Natación y Habilidades Acuáticas, con la inspección y vigilancia de la Secretaría de Educación de Medellín. Bebés Natación Clases desde los seis meses de edad, para que los bebés se familiaricen con el medio acuático, disfruten de él y se recreen, ejerciten su cuerpo y desarrollen habilidades motrices. Contáctenos Niños Natación",
+              "inLanguage": "en-US",
+              "isPartOf": {
+                "@id": "https://brazada.net/#website"
+              },
+              "breadcrumb": {
+                "@id": "https://brazada.net/natacion/#breadcrumblist"
+              },
+              "datePublished": "2019-09-18T22:15:32-05:00",
+              "dateModified": "2023-01-28T09:36:48-05:00"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://brazada.net/#website",
+              "url": "https://brazada.net/",
+              "name": "Brazada",
+              "description": "Centro Deportivo - Academia de Natación",
+              "inLanguage": "en-US",
+              "publisher": {
+                "@id": "https://brazada.net/#organization"
+              }
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "name": "Clases de natación",
+          "serviceType": "Clases de natación, entrenamiento, natación libre, personalizados",
+          "alternateName": "aprender a nadar",
+          "image": "http://brazada.net/wp-content/uploads/2021/01/Natacion-adultos.jpg",
+          "url": "http://brazada.net/natacion/"
+        }
+      ]
+    },
+    "/fitness/": {
+      "title": "Fitness - Brazada",
+      "canonical": "https://brazada.net/fitness/",
+      "meta": [
+        {
+          "name": "description",
+          "content": "Spinning El ciclismo estático es un entrenamiento de bajo impacto para personas de cualquier edad y condición física. Mejora las capacidades aeróbicas, fortalece los músculos y contribuye a la pérdida de peso. Circuito La resistencia aeróbica mejora considerablemente con esta modalidad dinámica y variada de entrenamiento, que se basa en la repetición sincronizada de series"
+        },
+        {
+          "name": "robots",
+          "content": "max-image-preview:large"
+        },
+        {
+          "property": "og:locale",
+          "content": "en_US"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Brazada - Centro Deportivo - Academia de Natación"
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "og:title",
+          "content": "Fitness - Brazada"
+        },
+        {
+          "property": "og:description",
+          "content": "Spinning El ciclismo estático es un entrenamiento de bajo impacto para personas de cualquier edad y condición física. Mejora las capacidades aeróbicas, fortalece los músculos y contribuye a la pérdida de peso. Circuito La resistencia aeróbica mejora considerablemente con esta modalidad dinámica y variada de entrenamiento, que se basa en la repetición sincronizada de series"
+        },
+        {
+          "property": "og:url",
+          "content": "https://brazada.net/fitness/"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2019-09-18T20:20:36+00:00"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2023-01-28T15:10:34+00:00"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "Fitness - Brazada"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Spinning El ciclismo estático es un entrenamiento de bajo impacto para personas de cualquier edad y condición física. Mejora las capacidades aeróbicas, fortalece los músculos y contribuye a la pérdida de peso. Circuito La resistencia aeróbica mejora considerablemente con esta modalidad dinámica y variada de entrenamiento, que se basa en la repetición sincronizada de series"
+        }
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://brazada.net/fitness/#breadcrumblist",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "@id": "https://brazada.net#listItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://brazada.net",
+                  "nextItem": {
+                    "@type": "ListItem",
+                    "@id": "https://brazada.net/fitness/#listItem",
+                    "name": "Fitness"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "@id": "https://brazada.net/fitness/#listItem",
+                  "position": 2,
+                  "name": "Fitness",
+                  "previousItem": {
+                    "@type": "ListItem",
+                    "@id": "https://brazada.net#listItem",
+                    "name": "Home"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://brazada.net/#organization",
+              "name": "Brazada",
+              "description": "Centro Deportivo - Academia de Natación",
+              "url": "https://brazada.net/"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://brazada.net/fitness/#webpage",
+              "url": "https://brazada.net/fitness/",
+              "name": "Fitness - Brazada",
+              "description": "Spinning El ciclismo estático es un entrenamiento de bajo impacto para personas de cualquier edad y condición física. Mejora las capacidades aeróbicas, fortalece los músculos y contribuye a la pérdida de peso. Circuito La resistencia aeróbica mejora considerablemente con esta modalidad dinámica y variada de entrenamiento, que se basa en la repetición sincronizada de series",
+              "inLanguage": "en-US",
+              "isPartOf": {
+                "@id": "https://brazada.net/#website"
+              },
+              "breadcrumb": {
+                "@id": "https://brazada.net/fitness/#breadcrumblist"
+              },
+              "datePublished": "2019-09-18T22:20:36-05:00",
+              "dateModified": "2023-01-28T10:10:34-05:00"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://brazada.net/#website",
+              "url": "https://brazada.net/",
+              "name": "Brazada",
+              "description": "Centro Deportivo - Academia de Natación",
+              "inLanguage": "en-US",
+              "publisher": {
+                "@id": "https://brazada.net/#organization"
+              }
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "name": "Fitness",
+          "serviceType": "Gimnasio para cardio, pesas, fitness o mejora del estado físico, spinning, core, tono",
+          "category": "Spinning, core, fitness, pesas, cardio, tono, caminadora, eliptica",
+          "alternateName": "Clases fitness, tono, core, pesas, cardio",
+          "image": "http://brazada.net/wp-content/uploads/2019/10/cardio.jpg",
+          "url": "http://brazada.net/fitness/"
+        }
+      ]
+    },
+    "/hidrogimnasia/": {
+      "title": "Hidrogimnasia - Brazada",
+      "canonical": "https://brazada.net/hidrogimnasia/",
+      "meta": [
+        {
+          "name": "description",
+          "content": "Hidroterapia Brazada El agua es un medio adecuado para rehabilitar y reincorporar a las actividades de su vida diaria a las personas que así lo necesiten. La fuerza hidrostática exige menos esfuerzo del corazón y a la vez potencia el trabajo de los sistemas óseo y muscular. Contáctenos Hidrogimnasia Brazada El sol. El aire libre"
+        },
+        {
+          "name": "robots",
+          "content": "max-image-preview:large"
+        },
+        {
+          "property": "og:locale",
+          "content": "en_US"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Brazada - Centro Deportivo - Academia de Natación"
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "og:title",
+          "content": "Hidrogimnasia - Brazada"
+        },
+        {
+          "property": "og:description",
+          "content": "Hidroterapia Brazada El agua es un medio adecuado para rehabilitar y reincorporar a las actividades de su vida diaria a las personas que así lo necesiten. La fuerza hidrostática exige menos esfuerzo del corazón y a la vez potencia el trabajo de los sistemas óseo y muscular. Contáctenos Hidrogimnasia Brazada El sol. El aire libre"
+        },
+        {
+          "property": "og:url",
+          "content": "https://brazada.net/hidrogimnasia/"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2019-09-18T20:21:20+00:00"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2021-04-23T15:59:10+00:00"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "Hidrogimnasia - Brazada"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Hidroterapia Brazada El agua es un medio adecuado para rehabilitar y reincorporar a las actividades de su vida diaria a las personas que así lo necesiten. La fuerza hidrostática exige menos esfuerzo del corazón y a la vez potencia el trabajo de los sistemas óseo y muscular. Contáctenos Hidrogimnasia Brazada El sol. El aire libre"
+        }
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://brazada.net/hidrogimnasia/#breadcrumblist",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "@id": "https://brazada.net#listItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://brazada.net",
+                  "nextItem": {
+                    "@type": "ListItem",
+                    "@id": "https://brazada.net/hidrogimnasia/#listItem",
+                    "name": "Hidrogimnasia"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "@id": "https://brazada.net/hidrogimnasia/#listItem",
+                  "position": 2,
+                  "name": "Hidrogimnasia",
+                  "previousItem": {
+                    "@type": "ListItem",
+                    "@id": "https://brazada.net#listItem",
+                    "name": "Home"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://brazada.net/#organization",
+              "name": "Brazada",
+              "description": "Centro Deportivo - Academia de Natación",
+              "url": "https://brazada.net/"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://brazada.net/hidrogimnasia/#webpage",
+              "url": "https://brazada.net/hidrogimnasia/",
+              "name": "Hidrogimnasia - Brazada",
+              "description": "Hidroterapia Brazada El agua es un medio adecuado para rehabilitar y reincorporar a las actividades de su vida diaria a las personas que así lo necesiten. La fuerza hidrostática exige menos esfuerzo del corazón y a la vez potencia el trabajo de los sistemas óseo y muscular. Contáctenos Hidrogimnasia Brazada El sol. El aire libre",
+              "inLanguage": "en-US",
+              "isPartOf": {
+                "@id": "https://brazada.net/#website"
+              },
+              "breadcrumb": {
+                "@id": "https://brazada.net/hidrogimnasia/#breadcrumblist"
+              },
+              "datePublished": "2019-09-18T22:21:20-05:00",
+              "dateModified": "2021-04-23T10:59:10-05:00"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://brazada.net/#website",
+              "url": "https://brazada.net/",
+              "name": "Brazada",
+              "description": "Centro Deportivo - Academia de Natación",
+              "inLanguage": "en-US",
+              "publisher": {
+                "@id": "https://brazada.net/#organization"
+              }
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "name": "Hidrogimasia",
+          "serviceType": "Hidrogimnasia, hidroterapia, hidroaerobicos, terapia en el agua, acuatica, aquafitness",
+          "category": "Hidrogimnasia, hidroterapia, hidroaerobicos, terapia en el agua, acuatica, aquafitness",
+          "alternateName": "Hidrogimnasia, hidroaerobicos, hidroterapia, recuperacion muscular, terapia en agua",
+          "image": "http://brazada.net/wp-content/uploads/2021/02/NG-generales.jpg",
+          "url": "http://brazada.net/hidrogimnasia/"
+        }
+      ]
+    },
+    "/masajes/": {
+      "title": "Masajes - Brazada",
+      "canonical": "https://brazada.net/masajes/",
+      "meta": [
+        {
+          "name": "description",
+          "content": "Masajes Brazada Reflexología, drenaje linfático, masajes terapéutico, de relajación y deportivos son algunas de las opciones que tenemos en Brazada. El masaje deportivo es una técnica manual que tiene como finalidad mejorar el rendimiento y el estado físico del deportista. Se aplica con el objetivo de que el deportista pueda alcanzar la puesta en forma"
+        },
+        {
+          "name": "robots",
+          "content": "max-image-preview:large"
+        },
+        {
+          "property": "og:locale",
+          "content": "en_US"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Brazada - Centro Deportivo - Academia de Natación"
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "og:title",
+          "content": "Masajes - Brazada"
+        },
+        {
+          "property": "og:description",
+          "content": "Masajes Brazada Reflexología, drenaje linfático, masajes terapéutico, de relajación y deportivos son algunas de las opciones que tenemos en Brazada. El masaje deportivo es una técnica manual que tiene como finalidad mejorar el rendimiento y el estado físico del deportista. Se aplica con el objetivo de que el deportista pueda alcanzar la puesta en forma"
+        },
+        {
+          "property": "og:url",
+          "content": "https://brazada.net/masajes/"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2019-10-22T19:53:46+00:00"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2021-04-23T16:09:34+00:00"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "Masajes - Brazada"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Masajes Brazada Reflexología, drenaje linfático, masajes terapéutico, de relajación y deportivos son algunas de las opciones que tenemos en Brazada. El masaje deportivo es una técnica manual que tiene como finalidad mejorar el rendimiento y el estado físico del deportista. Se aplica con el objetivo de que el deportista pueda alcanzar la puesta en forma"
+        }
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://brazada.net/masajes/#breadcrumblist",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "@id": "https://brazada.net#listItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://brazada.net",
+                  "nextItem": {
+                    "@type": "ListItem",
+                    "@id": "https://brazada.net/masajes/#listItem",
+                    "name": "Masajes"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "@id": "https://brazada.net/masajes/#listItem",
+                  "position": 2,
+                  "name": "Masajes",
+                  "previousItem": {
+                    "@type": "ListItem",
+                    "@id": "https://brazada.net#listItem",
+                    "name": "Home"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://brazada.net/#organization",
+              "name": "Brazada",
+              "description": "Centro Deportivo - Academia de Natación",
+              "url": "https://brazada.net/"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://brazada.net/masajes/#webpage",
+              "url": "https://brazada.net/masajes/",
+              "name": "Masajes - Brazada",
+              "description": "Masajes Brazada Reflexología, drenaje linfático, masajes terapéutico, de relajación y deportivos son algunas de las opciones que tenemos en Brazada. El masaje deportivo es una técnica manual que tiene como finalidad mejorar el rendimiento y el estado físico del deportista. Se aplica con el objetivo de que el deportista pueda alcanzar la puesta en forma",
+              "inLanguage": "en-US",
+              "isPartOf": {
+                "@id": "https://brazada.net/#website"
+              },
+              "breadcrumb": {
+                "@id": "https://brazada.net/masajes/#breadcrumblist"
+              },
+              "datePublished": "2019-10-22T21:53:46-05:00",
+              "dateModified": "2021-04-23T11:09:34-05:00"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://brazada.net/#website",
+              "url": "https://brazada.net/",
+              "name": "Brazada",
+              "description": "Centro Deportivo - Academia de Natación",
+              "inLanguage": "en-US",
+              "publisher": {
+                "@id": "https://brazada.net/#organization"
+              }
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "name": "Masajes",
+          "serviceType": "Reflexología, drenaje linfático, masajes terapéutico, masajes de relajación y masajes deportivos",
+          "alternateName": "Reflexología, drenaje linfático, masajes terapéutico, masajes de relajación y masajes deportivos",
+          "image": "http://brazada.net/wp-content/uploads/2019/10/masajes.jpg",
+          "url": "http://brazada.net/masajes/"
+        }
+      ]
+    },
+    "/protocolos/": {
+      "title": "Protocolos - Brazada",
+      "canonical": "https://brazada.net/protocolos/",
+      "meta": [
+        {
+          "name": "description",
+          "content": "Piscina Utilizar pantaloneta de Licra (niños, jóvenes y adultos). Utilizar de carácter obligatorio el GORRO DE BAÑO para ambos sexos. DUCHARSE antes de ingresar. Pasar por el lavapies a la entrada y a la salida. No ingresar alimentos o bebidas al área de la piscina. No ingresar calzado de la calle al área de la"
+        },
+        {
+          "name": "robots",
+          "content": "max-image-preview:large"
+        },
+        {
+          "property": "og:locale",
+          "content": "en_US"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Brazada - Centro Deportivo - Academia de Natación"
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "og:title",
+          "content": "Protocolos - Brazada"
+        },
+        {
+          "property": "og:description",
+          "content": "Piscina Utilizar pantaloneta de Licra (niños, jóvenes y adultos). Utilizar de carácter obligatorio el GORRO DE BAÑO para ambos sexos. DUCHARSE antes de ingresar. Pasar por el lavapies a la entrada y a la salida. No ingresar alimentos o bebidas al área de la piscina. No ingresar calzado de la calle al área de la"
+        },
+        {
+          "property": "og:url",
+          "content": "https://brazada.net/protocolos/"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2019-09-20T21:42:19+00:00"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-07-17T17:03:20+00:00"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "Protocolos - Brazada"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Piscina Utilizar pantaloneta de Licra (niños, jóvenes y adultos). Utilizar de carácter obligatorio el GORRO DE BAÑO para ambos sexos. DUCHARSE antes de ingresar. Pasar por el lavapies a la entrada y a la salida. No ingresar alimentos o bebidas al área de la piscina. No ingresar calzado de la calle al área de la"
+        }
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://brazada.net/protocolos/#breadcrumblist",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "@id": "https://brazada.net#listItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://brazada.net",
+                  "nextItem": {
+                    "@type": "ListItem",
+                    "@id": "https://brazada.net/protocolos/#listItem",
+                    "name": "Protocolos"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "@id": "https://brazada.net/protocolos/#listItem",
+                  "position": 2,
+                  "name": "Protocolos",
+                  "previousItem": {
+                    "@type": "ListItem",
+                    "@id": "https://brazada.net#listItem",
+                    "name": "Home"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://brazada.net/#organization",
+              "name": "Brazada",
+              "description": "Centro Deportivo - Academia de Natación",
+              "url": "https://brazada.net/"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://brazada.net/protocolos/#webpage",
+              "url": "https://brazada.net/protocolos/",
+              "name": "Protocolos - Brazada",
+              "description": "Piscina Utilizar pantaloneta de Licra (niños, jóvenes y adultos). Utilizar de carácter obligatorio el GORRO DE BAÑO para ambos sexos. DUCHARSE antes de ingresar. Pasar por el lavapies a la entrada y a la salida. No ingresar alimentos o bebidas al área de la piscina. No ingresar calzado de la calle al área de la",
+              "inLanguage": "en-US",
+              "isPartOf": {
+                "@id": "https://brazada.net/#website"
+              },
+              "breadcrumb": {
+                "@id": "https://brazada.net/protocolos/#breadcrumblist"
+              },
+              "datePublished": "2019-09-20T23:42:19-05:00",
+              "dateModified": "2022-07-17T12:03:20-05:00"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://brazada.net/#website",
+              "url": "https://brazada.net/",
+              "name": "Brazada",
+              "description": "Centro Deportivo - Academia de Natación",
+              "inLanguage": "en-US",
+              "publisher": {
+                "@id": "https://brazada.net/#organization"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "/tarifas/": {
+      "title": "Tarifas - Brazada",
+      "canonical": "https://brazada.net/tarifas/",
+      "meta": [
+        {
+          "name": "description",
+          "content": "Matrícula 2026 $ 125.000 monthly Matrícula Natación bebés y niños 2026 $ 305.000 monthly 1 vez / semana Natación bebés y niños $ 505.000 monthly 2 veces / semana Natación bebés y niños $ 85.000 monthly 1 clase de natación Natación bebés y niños Intensivos 2026 $ 78.000 monthly 1 día Intensivos $ 640.000 monthly"
+        },
+        {
+          "name": "robots",
+          "content": "max-image-preview:large"
+        },
+        {
+          "property": "og:locale",
+          "content": "en_US"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Brazada - Centro Deportivo - Academia de Natación"
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "og:title",
+          "content": "Tarifas - Brazada"
+        },
+        {
+          "property": "og:description",
+          "content": "Matrícula 2026 $ 125.000 monthly Matrícula Natación bebés y niños 2026 $ 305.000 monthly 1 vez / semana Natación bebés y niños $ 505.000 monthly 2 veces / semana Natación bebés y niños $ 85.000 monthly 1 clase de natación Natación bebés y niños Intensivos 2026 $ 78.000 monthly 1 día Intensivos $ 640.000 monthly"
+        },
+        {
+          "property": "og:url",
+          "content": "https://brazada.net/tarifas/"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2019-09-20T16:23:10+00:00"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2026-01-22T20:54:51+00:00"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "Tarifas - Brazada"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Matrícula 2026 $ 125.000 monthly Matrícula Natación bebés y niños 2026 $ 305.000 monthly 1 vez / semana Natación bebés y niños $ 505.000 monthly 2 veces / semana Natación bebés y niños $ 85.000 monthly 1 clase de natación Natación bebés y niños Intensivos 2026 $ 78.000 monthly 1 día Intensivos $ 640.000 monthly"
+        }
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://brazada.net/tarifas/#breadcrumblist",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "@id": "https://brazada.net#listItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://brazada.net",
+                  "nextItem": {
+                    "@type": "ListItem",
+                    "@id": "https://brazada.net/tarifas/#listItem",
+                    "name": "Tarifas"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "@id": "https://brazada.net/tarifas/#listItem",
+                  "position": 2,
+                  "name": "Tarifas",
+                  "previousItem": {
+                    "@type": "ListItem",
+                    "@id": "https://brazada.net#listItem",
+                    "name": "Home"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://brazada.net/#organization",
+              "name": "Brazada",
+              "description": "Centro Deportivo - Academia de Natación",
+              "url": "https://brazada.net/"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://brazada.net/tarifas/#webpage",
+              "url": "https://brazada.net/tarifas/",
+              "name": "Tarifas - Brazada",
+              "description": "Matrícula 2026 $ 125.000 monthly Matrícula Natación bebés y niños 2026 $ 305.000 monthly 1 vez / semana Natación bebés y niños $ 505.000 monthly 2 veces / semana Natación bebés y niños $ 85.000 monthly 1 clase de natación Natación bebés y niños Intensivos 2026 $ 78.000 monthly 1 día Intensivos $ 640.000 monthly",
+              "inLanguage": "en-US",
+              "isPartOf": {
+                "@id": "https://brazada.net/#website"
+              },
+              "breadcrumb": {
+                "@id": "https://brazada.net/tarifas/#breadcrumblist"
+              },
+              "datePublished": "2019-09-20T18:23:10-05:00",
+              "dateModified": "2026-01-22T15:54:51-05:00"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://brazada.net/#website",
+              "url": "https://brazada.net/",
+              "name": "Brazada",
+              "description": "Centro Deportivo - Academia de Natación",
+              "inLanguage": "en-US",
+              "publisher": {
+                "@id": "https://brazada.net/#organization"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "/horarios/": {
+      "title": "Horarios - Brazada",
+      "canonical": "https://brazada.net/horarios/",
+      "meta": [
+        {
+          "name": "description",
+          "content": "Jornada Brazada Lunes a viernes desde las 6:00 a.m hasta las 7:30 p.m Sábados desde las 7:00 a.m hasta las 1:00 p.m Niños Natación Lunes a viernes 3:30 p.m y 4:30 p.m Sábados 9:00 a.m - 10:00 a.m - 11:00 a.m Libre Natación Separa tu espacio en el whatsapp 310 5386485 Reservas según disponibilidad dentro"
+        },
+        {
+          "name": "robots",
+          "content": "max-image-preview:large"
+        },
+        {
+          "property": "og:locale",
+          "content": "en_US"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Brazada - Centro Deportivo - Academia de Natación"
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "og:title",
+          "content": "Horarios - Brazada"
+        },
+        {
+          "property": "og:description",
+          "content": "Jornada Brazada Lunes a viernes desde las 6:00 a.m hasta las 7:30 p.m Sábados desde las 7:00 a.m hasta las 1:00 p.m Niños Natación Lunes a viernes 3:30 p.m y 4:30 p.m Sábados 9:00 a.m - 10:00 a.m - 11:00 a.m Libre Natación Separa tu espacio en el whatsapp 310 5386485 Reservas según disponibilidad dentro"
+        },
+        {
+          "property": "og:url",
+          "content": "https://brazada.net/horarios/"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2019-09-19T19:28:35+00:00"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2026-05-14T15:05:33+00:00"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "Horarios - Brazada"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Jornada Brazada Lunes a viernes desde las 6:00 a.m hasta las 7:30 p.m Sábados desde las 7:00 a.m hasta las 1:00 p.m Niños Natación Lunes a viernes 3:30 p.m y 4:30 p.m Sábados 9:00 a.m - 10:00 a.m - 11:00 a.m Libre Natación Separa tu espacio en el whatsapp 310 5386485 Reservas según disponibilidad dentro"
+        }
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://brazada.net/horarios/#breadcrumblist",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "@id": "https://brazada.net#listItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://brazada.net",
+                  "nextItem": {
+                    "@type": "ListItem",
+                    "@id": "https://brazada.net/horarios/#listItem",
+                    "name": "Horarios"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "@id": "https://brazada.net/horarios/#listItem",
+                  "position": 2,
+                  "name": "Horarios",
+                  "previousItem": {
+                    "@type": "ListItem",
+                    "@id": "https://brazada.net#listItem",
+                    "name": "Home"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://brazada.net/#organization",
+              "name": "Brazada",
+              "description": "Centro Deportivo - Academia de Natación",
+              "url": "https://brazada.net/"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://brazada.net/horarios/#webpage",
+              "url": "https://brazada.net/horarios/",
+              "name": "Horarios - Brazada",
+              "description": "Jornada Brazada Lunes a viernes desde las 6:00 a.m hasta las 7:30 p.m Sábados desde las 7:00 a.m hasta las 1:00 p.m Niños Natación Lunes a viernes 3:30 p.m y 4:30 p.m Sábados 9:00 a.m - 10:00 a.m - 11:00 a.m Libre Natación Separa tu espacio en el whatsapp 310 5386485 Reservas según disponibilidad dentro",
+              "inLanguage": "en-US",
+              "isPartOf": {
+                "@id": "https://brazada.net/#website"
+              },
+              "breadcrumb": {
+                "@id": "https://brazada.net/horarios/#breadcrumblist"
+              },
+              "datePublished": "2019-09-19T21:28:35-05:00",
+              "dateModified": "2026-05-14T10:05:33-05:00"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://brazada.net/#website",
+              "url": "https://brazada.net/",
+              "name": "Brazada",
+              "description": "Centro Deportivo - Academia de Natación",
+              "inLanguage": "en-US",
+              "publisher": {
+                "@id": "https://brazada.net/#organization"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

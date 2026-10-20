@@ -1,23 +1,26 @@
 import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
-import copy from './src/data/es.json' with { type: 'json' }
-
-function escapeHtml(value) {
-  return value.replace(/[&"<>]/g, (character) => ({
-    '&': '&amp;',
-    '"': '&quot;',
-    '<': '&lt;',
-    '>': '&gt;',
-  })[character])
-}
+import copy from './public/data/es.json' with { type: 'json' }
+import { escapeHtml, getPageSeo, renderSeoHead } from './src/seo.js'
+import { createDiscoveryFiles } from './scripts/ai-discovery.mjs'
 
 export default defineConfig({
   plugins: [
     react(),
     {
-      name: 'localized-html',
-      transformIndexHtml(html) {
-        return html.replace(/\{\{(language|description|defaultTitle)\}\}/g, (_, key) => escapeHtml(copy.metadata[key]))
+      name: 'page-seo',
+      configureServer(server) {
+        server.middlewares.use((request, response, next) => {
+          const path = request.url?.split('?')[0]
+          if (!['/llms.txt', '/llms-full.txt', '/robots.txt'].includes(path)) return next()
+          response.setHeader('Content-Type', 'text/plain; charset=utf-8')
+          response.end(createDiscoveryFiles()[path.slice(1)])
+        })
+      },
+      transformIndexHtml(html, context) {
+        const languageHtml = html.replace('{{language}}', escapeHtml(copy.metadata.language))
+        if (context.server) return languageHtml.replace('<!--page-seo-->', renderSeoHead(getPageSeo(context.originalUrl || context.path, copy)))
+        return languageHtml
       },
     },
   ],

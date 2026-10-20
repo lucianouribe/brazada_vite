@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import SiteActions from './components/SiteActions'
@@ -14,19 +13,15 @@ import Protocolos from './pages/Protocolos'
 import Tarifas from './pages/Tarifas'
 import Horarios from './pages/Horarios'
 import Placeholder from './pages/Placeholder'
-import { useContent, formatText } from './content'
+import PageSeo from './components/PageSeo'
+import { useContent } from './content'
+import { normalizePath } from './seo'
 import './App.css'
 
-function App() {
+function App({ pathname = window.location.pathname }) {
   const { copy, navigation, services } = useContent()
-  const path = `${window.location.pathname.replace(/\/+$/, '')}/`
-  const page = [...navigation, ...services, { label: copy.shared.additionalPages.mindAndBody, href: '/mente-y-cuerpo/' }, { label: copy.shared.additionalPages.informationPolicy, href: '/tratamiento-de-datos/' }].find((item) => item.href === path)
-
-  useEffect(() => {
-    document.title = formatText(copy.metadata.titleTemplate, { page: page?.label || copy.shared.placeholder.notFound })
-    document.documentElement.lang = copy.metadata.language
-    document.querySelector('meta[name="description"]').content = copy.metadata.description
-  }, [copy, page?.label])
+  const path = normalizePath(pathname)
+  const page = [...navigation, ...services, { label: copy.shared.additionalPages.informationPolicy, href: '/tratamiento-de-datos/' }].find((item) => item.href === path)
 
   let content = <Placeholder page={page} />
   if (path === '/') content = <Landing />
@@ -43,6 +38,7 @@ function App() {
 
   return (
     <>
+      <PageSeo path={path} />
       <a className="skip-link" href="#main-content">{copy.shared.app.skipLink}</a>
       <Header path={path} />
       {content}

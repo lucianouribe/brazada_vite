@@ -4,6 +4,7 @@ import { LanguageContext } from '../content'
 const storageKey = 'brazada-language'
 
 function readLanguage() {
+  if (typeof window === 'undefined') return 'es'
   try {
     return localStorage.getItem(storageKey) === 'en' ? 'en' : 'es'
   } catch (error) {
@@ -13,7 +14,7 @@ function readLanguage() {
   }
 }
 
-export default function LanguageProvider({ children }) {
+export default function LanguageProvider({ children, data }) {
   const [language, updateLanguage] = useState(readLanguage)
 
   function setLanguage(value) {
@@ -27,5 +28,5 @@ export default function LanguageProvider({ children }) {
     }
   }
 
-  return <LanguageContext.Provider value={{ language, setLanguage }}>{children}</LanguageContext.Provider>
+  return <LanguageContext.Provider value={{ language, setLanguage, data }}>{children}</LanguageContext.Provider>
 }

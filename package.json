@@ -5,8 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node scripts/build.mjs",
     "lint": "oxlint",
+    "test:seo": "node --test tests/seo.test.mjs",
+    "test:content": "node --test tests/content.test.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

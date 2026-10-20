@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 function useCarousel(length, delay) {
   const [index, setIndex] = useState(0)
   const [paused, setPaused] = useState(false)
-  const [reducedMotion, setReducedMotion] = useState(() => window.matchMedia('(prefers-reduced-motion: reduce)').matches)
+  const [reducedMotion, setReducedMotion] = useState(() => typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches)
 
   useEffect(() => {
     const preference = window.matchMedia('(prefers-reduced-motion: reduce)')

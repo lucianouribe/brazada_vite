@@ -18,7 +18,7 @@ function Footer() {
         <section>
           <h2>{content.services}</h2>
           <ul className="footer-services">
-            {[...services.filter((item) => item.href !== '/protocolos/').slice(0, 3), { label: copy.shared.additionalPages.mindAndBody, href: '/mente-y-cuerpo/' }, services[3], navigation[1], { label: copy.shared.additionalPages.informationPolicy, href: informationPolicyUrl }].map((item) => <li key={item.href}><a href={item.href}>{item.label}</a></li>)}
+            {[...services.filter((item) => item.href !== '/protocolos/').slice(0, 3), services[3], navigation[1], { label: copy.shared.additionalPages.informationPolicy, href: informationPolicyUrl }].map((item) => <li key={item.href}><a href={item.href}>{item.label}</a></li>)}
           </ul>
         </section>
         <section>

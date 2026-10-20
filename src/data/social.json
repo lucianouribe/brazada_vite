@@ -1,0 +1,13 @@
+{
+  "/": { "image": "inicio", "page": "landing", "source": "Inicio.jpg" },
+  "/normatividad/": { "image": "normatividad", "page": "normatividad", "source": "normatividad_header.jpg" },
+  "/porque-brazada/": { "image": "porque-brazada", "page": "porqueBrazada", "source": "porque-brazada-header-1.jpg" },
+  "/contactenos/": { "image": "contactenos", "page": "contactenos", "source": "contactenos-header.jpg" },
+  "/natacion/": { "image": "natacion", "page": "natacion", "source": "natacion_header_2000_x_720.jpg" },
+  "/fitness/": { "image": "fitness", "page": "fitness", "source": "Fondo-Fitness.jpg" },
+  "/hidrogimnasia/": { "image": "hidrogimnasia", "page": "hidrogimnasia", "source": "Fondo-Hidrogimnasia.jpg" },
+  "/masajes/": { "image": "masajes", "page": "masajes", "source": "Masaje-fondo-nueva.jpg" },
+  "/protocolos/": { "image": "protocolos", "page": "protocolos", "source": "protocolos-header.jpg" },
+  "/tarifas/": { "image": "tarifas", "page": "tarifas", "source": "tarifas_header.jpg" },
+  "/horarios/": { "image": "horarios", "page": "horarios", "source": "horario_header.jpg" }
+}
